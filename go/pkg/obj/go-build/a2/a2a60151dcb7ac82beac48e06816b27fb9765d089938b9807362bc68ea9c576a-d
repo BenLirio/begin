@@ -1,0 +1,17 @@
+# test log
+stat .
+open .
+open /dev/null
+open /usr/local/go/bin/go
+open /dev/null
+open /usr/local/go/bin/go
+open /dev/null
+open /usr/local/go/bin/go
+open /dev/null
+open /usr/local/go/bin/go
+open /dev/null
+open /usr/local/go/bin/go
+open /dev/null
+open /usr/local/go/bin/go
+open /dev/null
+open /usr/local/go/bin/go

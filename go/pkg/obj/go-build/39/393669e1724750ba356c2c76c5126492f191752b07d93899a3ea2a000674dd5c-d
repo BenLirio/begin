@@ -1,0 +1,97 @@
+# command-line-arguments
+"".f STEXT nosplit size=27 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/issue31618.go:12)	TEXT	"".f(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/issue31618.go:12)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/issue31618.go:12)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (<unknown line number>)	NOP
+	0x0000 00000 (/usr/local/go/test/codegen/issue31618.go:14)	MOVQ	"".x+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/issue31618.go:14)	SARQ	$3, AX
+	0x0009 00009 (/usr/local/go/test/codegen/issue31618.go:14)	ADDQ	$5, AX
+	0x000d 00013 (/usr/local/go/test/codegen/issue31618.go:16)	SARQ	$3, AX
+	0x0011 00017 (/usr/local/go/test/codegen/issue31618.go:16)	ADDQ	$6, AX
+	0x0015 00021 (/usr/local/go/test/codegen/issue31618.go:17)	MOVQ	AX, "".~r1+16(SP)
+	0x001a 00026 (/usr/local/go/test/codegen/issue31618.go:17)	RET
+	0x0000 48 8b 44 24 08 48 c1 f8 03 48 83 c0 05 48 c1 f8  H.D$.H...H...H..
+	0x0010 03 48 83 c0 06 48 89 44 24 10 c3                 .H...H.D$..
+"".g STEXT nosplit size=15 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/issue31618.go:20)	TEXT	"".g(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/issue31618.go:20)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/issue31618.go:20)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/issue31618.go:21)	MOVQ	"".x+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/issue31618.go:21)	SARQ	$3, AX
+	0x0009 00009 (/usr/local/go/test/codegen/issue31618.go:21)	MOVQ	AX, "".~r1+16(SP)
+	0x000e 00014 (/usr/local/go/test/codegen/issue31618.go:21)	RET
+	0x0000 48 8b 44 24 08 48 c1 f8 03 48 89 44 24 10 c3     H.D$.H...H.D$..
+go.cuinfo.packagename.command-line-arguments SDWARFINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+go.info."".g$abstract SDWARFINFO dupok size=37
+	0x0000 04 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 67 00 01 01 11 78 00 00  guments.g....x..
+	0x0020 00 00 00 00 00                                   .....
+	rel 32+4 t=29 go.info.int+0
+gclocals·33cdeccccebe80329f1fdbee7f5874cb SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+aux for "".f SDWARFLOC size=153
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 1b 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 1b 00 00 00 00  ................
+	0x0050 00 00 00 01 00 9c 00 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00  ................
+	0x0070 00 00 00 00 00 00 0d 00 00 00 00 00 00 00 11 00  ................
+	0x0080 00 00 00 00 00 00 01 00 50 00 00 00 00 00 00 00  ........P.......
+	0x0090 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 "".f+0
+	rel 59+8 t=1 "".f+0
+	rel 110+8 t=1 "".f+0
+aux for "".f SDWARFLINES size=25
+	0x0000 04 02 03 08 14 03 02 46 03 7d 33 03 02 3c 03 7f  .......F.}3..<..
+	0x0010 33 38 06 41 02 01 00 01 01                       38.A.....
+aux for "".f SDWARFINFO size=147
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 66 00 00 00 00 00 00 00  guments.f.......
+	0x0020 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00  ................
+	0x0030 01 10 78 00 00 0c 00 00 00 00 00 00 00 00 0f 7e  ..x............~
+	0x0040 72 31 00 01 0c 00 00 00 00 00 06 00 00 00 00 00  r1..............
+	0x0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02  ................
+	0x0060 00 00 00 0e 13 00 00 00 00 00 00 00 00 00 06 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0080 00 00 00 02 00 00 00 10 13 00 00 00 00 00 00 00  ................
+	0x0090 00 00 00                                         ...
+	rel 0+0 t=24 type.int+0
+	rel 26+8 t=1 "".f+0
+	rel 34+8 t=1 "".f+27
+	rel 54+4 t=29 go.info.int+0
+	rel 58+4 t=29 +0
+	rel 69+4 t=29 go.info.int+0
+	rel 75+4 t=29 go.info."".g$abstract+0
+	rel 79+8 t=1 "".f+5
+	rel 87+8 t=1 "".f+9
+	rel 101+4 t=29 go.info."".g$abstract+28
+	rel 105+4 t=29 +51
+	rel 111+4 t=29 go.info."".g$abstract+0
+	rel 115+8 t=1 "".f+13
+	rel 123+8 t=1 "".f+17
+	rel 137+4 t=29 go.info."".g$abstract+28
+	rel 141+4 t=29 +102
+aux for "".g SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0f 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 "".g+0
+aux for "".g SDWARFLINES size=12
+	0x0000 04 02 03 0f 14 06 41 02 0a 00 01 01              ......A.....
+aux for "".g SDWARFINFO size=45
+	0x0000 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 01 9c 13 00 00 00 00 00 00 00 00  ................
+	0x0020 0f 7e 72 31 00 01 14 00 00 00 00 00 00           .~r1.........
+	rel 0+0 t=24 type.int+0
+	rel 1+4 t=29 go.info."".g$abstract+0
+	rel 5+8 t=1 "".g+0
+	rel 13+8 t=1 "".g+15
+	rel 24+4 t=29 go.info."".g$abstract+28
+	rel 28+4 t=29 +0
+	rel 39+4 t=29 go.info.int+0

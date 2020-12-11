@@ -1,0 +1,18 @@
+# test log
+getenv TMPDIR
+open /tmp/TestLockNotDroppedByExecCommand759075862
+open /tmp/TestLockNotDroppedByExecCommand759075862
+open /dev/null
+open /dev/null
+open /dev/null
+open /tmp/go-build011943291/b1332/filelock.test
+getenv TMPDIR
+open /tmp/TestLockExcludesLock528528509
+getenv TMPDIR
+open /tmp/TestRLockExcludesOnlyLock728706488
+open /tmp/TestLockExcludesLock528528509
+getenv TMPDIR
+open /tmp/TestLockExcludesRLock876844471
+open /tmp/TestLockExcludesRLock876844471
+open /tmp/TestRLockExcludesOnlyLock728706488
+open /tmp/TestRLockExcludesOnlyLock728706488

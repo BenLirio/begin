@@ -1,0 +1,1315 @@
+# command-line-arguments
+"".bitcheck64_constleft STEXT nosplit size=65 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:13)	TEXT	"".bitcheck64_constleft(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:13)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:13)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:15)	MOVQ	"".a+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:15)	BTQ	$63, AX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:15)	JCS	55
+	0x000c 00012 (/usr/local/go/test/codegen/bits.go:19)	BTQ	$60, AX
+	0x0011 00017 (/usr/local/go/test/codegen/bits.go:19)	JCS	45
+	0x0013 00019 (/usr/local/go/test/codegen/bits.go:23)	BTL	$0, AX
+	0x0017 00023 (/usr/local/go/test/codegen/bits.go:23)	JCC	35
+	0x0019 00025 (/usr/local/go/test/codegen/bits.go:24)	MOVQ	$1, "".n+16(SP)
+	0x0022 00034 (/usr/local/go/test/codegen/bits.go:24)	RET
+	0x0023 00035 (/usr/local/go/test/codegen/bits.go:26)	MOVQ	$0, "".n+16(SP)
+	0x002c 00044 (/usr/local/go/test/codegen/bits.go:26)	RET
+	0x002d 00045 (/usr/local/go/test/codegen/bits.go:20)	MOVQ	$1, "".n+16(SP)
+	0x0036 00054 (/usr/local/go/test/codegen/bits.go:20)	RET
+	0x0037 00055 (/usr/local/go/test/codegen/bits.go:16)	MOVQ	$1, "".n+16(SP)
+	0x0040 00064 (/usr/local/go/test/codegen/bits.go:16)	RET
+	0x0000 48 8b 44 24 08 48 0f ba e0 3f 72 2b 48 0f ba e0  H.D$.H...?r+H...
+	0x0010 3c 72 1a 0f ba e0 00 73 0a 48 c7 44 24 10 01 00  <r.....s.H.D$...
+	0x0020 00 00 c3 48 c7 44 24 10 00 00 00 00 c3 48 c7 44  ...H.D$......H.D
+	0x0030 24 10 01 00 00 00 c3 48 c7 44 24 10 01 00 00 00  $......H.D$.....
+	0x0040 c3                                               .
+"".bitcheck64_constright STEXT nosplit size=165 args=0x48 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:29)	TEXT	"".bitcheck64_constright(SB), NOSPLIT|ABIInternal, $0-72
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:29)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:29)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:31)	MOVQ	"".a+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:31)	BTQ	$63, AX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:31)	JCS	155
+	0x0010 00016 (/usr/local/go/test/codegen/bits.go:35)	MOVQ	"".a+16(SP), AX
+	0x0015 00021 (/usr/local/go/test/codegen/bits.go:35)	BTQ	$63, AX
+	0x001a 00026 (/usr/local/go/test/codegen/bits.go:35)	JCS	145
+	0x001c 00028 (/usr/local/go/test/codegen/bits.go:39)	MOVQ	"".a+24(SP), AX
+	0x0021 00033 (/usr/local/go/test/codegen/bits.go:39)	BTQ	$63, AX
+	0x0026 00038 (/usr/local/go/test/codegen/bits.go:39)	JCC	135
+	0x0028 00040 (/usr/local/go/test/codegen/bits.go:43)	MOVQ	"".a+32(SP), AX
+	0x002d 00045 (/usr/local/go/test/codegen/bits.go:43)	BTQ	$60, AX
+	0x0032 00050 (/usr/local/go/test/codegen/bits.go:43)	JCC	125
+	0x0034 00052 (/usr/local/go/test/codegen/bits.go:47)	MOVQ	"".a+40(SP), AX
+	0x0039 00057 (/usr/local/go/test/codegen/bits.go:47)	BTL	$1, AX
+	0x003d 00061 (/usr/local/go/test/codegen/bits.go:47)	JCC	115
+	0x003f 00063 (/usr/local/go/test/codegen/bits.go:51)	MOVQ	"".a+48(SP), AX
+	0x0044 00068 (/usr/local/go/test/codegen/bits.go:51)	BTL	$0, AX
+	0x0048 00072 (/usr/local/go/test/codegen/bits.go:51)	JCC	105
+	0x004a 00074 (/usr/local/go/test/codegen/bits.go:55)	MOVQ	"".a+56(SP), AX
+	0x004f 00079 (/usr/local/go/test/codegen/bits.go:55)	BTL	$7, AX
+	0x0053 00083 (/usr/local/go/test/codegen/bits.go:55)	JCS	95
+	0x0055 00085 (/usr/local/go/test/codegen/bits.go:56)	MOVQ	$1, "".n+72(SP)
+	0x005e 00094 (/usr/local/go/test/codegen/bits.go:56)	RET
+	0x005f 00095 (/usr/local/go/test/codegen/bits.go:58)	MOVQ	$0, "".n+72(SP)
+	0x0068 00104 (/usr/local/go/test/codegen/bits.go:58)	RET
+	0x0069 00105 (/usr/local/go/test/codegen/bits.go:52)	MOVQ	$1, "".n+72(SP)
+	0x0072 00114 (/usr/local/go/test/codegen/bits.go:52)	RET
+	0x0073 00115 (/usr/local/go/test/codegen/bits.go:48)	MOVQ	$1, "".n+72(SP)
+	0x007c 00124 (/usr/local/go/test/codegen/bits.go:48)	RET
+	0x007d 00125 (/usr/local/go/test/codegen/bits.go:44)	MOVQ	$1, "".n+72(SP)
+	0x0086 00134 (/usr/local/go/test/codegen/bits.go:44)	RET
+	0x0087 00135 (/usr/local/go/test/codegen/bits.go:40)	MOVQ	$1, "".n+72(SP)
+	0x0090 00144 (/usr/local/go/test/codegen/bits.go:40)	RET
+	0x0091 00145 (/usr/local/go/test/codegen/bits.go:36)	MOVQ	$1, "".n+72(SP)
+	0x009a 00154 (/usr/local/go/test/codegen/bits.go:36)	RET
+	0x009b 00155 (/usr/local/go/test/codegen/bits.go:32)	MOVQ	$1, "".n+72(SP)
+	0x00a4 00164 (/usr/local/go/test/codegen/bits.go:32)	RET
+	0x0000 48 8b 44 24 08 48 0f ba e0 3f 0f 82 8b 00 00 00  H.D$.H...?......
+	0x0010 48 8b 44 24 10 48 0f ba e0 3f 72 75 48 8b 44 24  H.D$.H...?ruH.D$
+	0x0020 18 48 0f ba e0 3f 73 5f 48 8b 44 24 20 48 0f ba  .H...?s_H.D$ H..
+	0x0030 e0 3c 73 49 48 8b 44 24 28 0f ba e0 01 73 34 48  .<sIH.D$(....s4H
+	0x0040 8b 44 24 30 0f ba e0 00 73 1f 48 8b 44 24 38 0f  .D$0....s.H.D$8.
+	0x0050 ba e0 07 72 0a 48 c7 44 24 48 01 00 00 00 c3 48  ...r.H.D$H.....H
+	0x0060 c7 44 24 48 00 00 00 00 c3 48 c7 44 24 48 01 00  .D$H.....H.D$H..
+	0x0070 00 00 c3 48 c7 44 24 48 01 00 00 00 c3 48 c7 44  ...H.D$H.....H.D
+	0x0080 24 48 01 00 00 00 c3 48 c7 44 24 48 01 00 00 00  $H.....H.D$H....
+	0x0090 c3 48 c7 44 24 48 01 00 00 00 c3 48 c7 44 24 48  .H.D$H.....H.D$H
+	0x00a0 01 00 00 00 c3                                   .....
+"".bitcheck64_var STEXT nosplit size=53 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:61)	TEXT	"".bitcheck64_var(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:61)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:61)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:63)	MOVQ	"".b+16(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:63)	MOVQ	"".a+8(SP), CX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:63)	BTQ	AX, CX
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:63)	JCS	43
+	0x0010 00016 (/usr/local/go/test/codegen/bits.go:67)	BTQ	CX, AX
+	0x0014 00020 (/usr/local/go/test/codegen/bits.go:67)	JCC	33
+	0x0016 00022 (/usr/local/go/test/codegen/bits.go:68)	MOVQ	$1, "".n+24(SP)
+	0x001f 00031 (/usr/local/go/test/codegen/bits.go:68)	NOP
+	0x0020 00032 (/usr/local/go/test/codegen/bits.go:68)	RET
+	0x0021 00033 (/usr/local/go/test/codegen/bits.go:70)	MOVQ	$0, "".n+24(SP)
+	0x002a 00042 (/usr/local/go/test/codegen/bits.go:70)	RET
+	0x002b 00043 (/usr/local/go/test/codegen/bits.go:64)	MOVQ	$1, "".n+24(SP)
+	0x0034 00052 (/usr/local/go/test/codegen/bits.go:64)	RET
+	0x0000 48 8b 44 24 10 48 8b 4c 24 08 48 0f a3 c1 72 1b  H.D$.H.L$.H...r.
+	0x0010 48 0f a3 c8 73 0b 48 c7 44 24 18 01 00 00 00 90  H...s.H.D$......
+	0x0020 c3 48 c7 44 24 18 00 00 00 00 c3 48 c7 44 24 18  .H.D$......H.D$.
+	0x0030 01 00 00 00 c3                                   .....
+"".bitcheck64_mask STEXT nosplit size=65 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:73)	TEXT	"".bitcheck64_mask(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:73)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:73)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:75)	MOVQ	"".a+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:75)	BTQ	$63, AX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:75)	JCS	55
+	0x000c 00012 (/usr/local/go/test/codegen/bits.go:79)	BTQ	$59, AX
+	0x0011 00017 (/usr/local/go/test/codegen/bits.go:79)	JCS	45
+	0x0013 00019 (/usr/local/go/test/codegen/bits.go:83)	BTL	$0, AX
+	0x0017 00023 (/usr/local/go/test/codegen/bits.go:83)	JCC	35
+	0x0019 00025 (/usr/local/go/test/codegen/bits.go:84)	MOVQ	$1, "".n+16(SP)
+	0x0022 00034 (/usr/local/go/test/codegen/bits.go:84)	RET
+	0x0023 00035 (/usr/local/go/test/codegen/bits.go:86)	MOVQ	$0, "".n+16(SP)
+	0x002c 00044 (/usr/local/go/test/codegen/bits.go:86)	RET
+	0x002d 00045 (/usr/local/go/test/codegen/bits.go:80)	MOVQ	$1, "".n+16(SP)
+	0x0036 00054 (/usr/local/go/test/codegen/bits.go:80)	RET
+	0x0037 00055 (/usr/local/go/test/codegen/bits.go:76)	MOVQ	$1, "".n+16(SP)
+	0x0040 00064 (/usr/local/go/test/codegen/bits.go:76)	RET
+	0x0000 48 8b 44 24 08 48 0f ba e0 3f 72 2b 48 0f ba e0  H.D$.H...?r+H...
+	0x0010 3b 72 1a 0f ba e0 00 73 0a 48 c7 44 24 10 01 00  ;r.....s.H.D$...
+	0x0020 00 00 c3 48 c7 44 24 10 00 00 00 00 c3 48 c7 44  ...H.D$......H.D
+	0x0030 24 10 01 00 00 00 c3 48 c7 44 24 10 01 00 00 00  $......H.D$.....
+	0x0040 c3                                               .
+"".biton64 STEXT nosplit size=49 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:89)	TEXT	"".biton64(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:89)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:89)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:91)	MOVQ	"".b+16(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:91)	MOVQ	"".a+8(SP), CX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:91)	BTSQ	CX, AX
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:94)	MOVQ	CX, DX
+	0x0011 00017 (/usr/local/go/test/codegen/bits.go:94)	BTSQ	$63, CX
+	0x0016 00022 (/usr/local/go/test/codegen/bits.go:94)	ADDQ	CX, AX
+	0x0019 00025 (/usr/local/go/test/codegen/bits.go:97)	MOVQ	DX, CX
+	0x001c 00028 (/usr/local/go/test/codegen/bits.go:97)	BTSQ	$60, DX
+	0x0021 00033 (/usr/local/go/test/codegen/bits.go:97)	ADDQ	DX, AX
+	0x0024 00036 (/usr/local/go/test/codegen/bits.go:100)	ORQ	$1, CX
+	0x0028 00040 (/usr/local/go/test/codegen/bits.go:100)	ADDQ	CX, AX
+	0x002b 00043 (/usr/local/go/test/codegen/bits.go:102)	MOVQ	AX, "".n+24(SP)
+	0x0030 00048 (/usr/local/go/test/codegen/bits.go:102)	RET
+	0x0000 48 8b 44 24 10 48 8b 4c 24 08 48 0f ab c8 48 89  H.D$.H.L$.H...H.
+	0x0010 ca 48 0f ba e9 3f 48 01 c8 48 89 d1 48 0f ba ea  .H...?H..H..H...
+	0x0020 3c 48 01 d0 48 83 c9 01 48 01 c8 48 89 44 24 18  <H..H...H..H.D$.
+	0x0030 c3                                               .
+"".bitoff64 STEXT nosplit size=49 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:105)	TEXT	"".bitoff64(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:105)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:105)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:107)	MOVQ	"".b+16(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:107)	MOVQ	"".a+8(SP), CX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:107)	BTRQ	CX, AX
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:110)	MOVQ	CX, DX
+	0x0011 00017 (/usr/local/go/test/codegen/bits.go:110)	BTRQ	$63, CX
+	0x0016 00022 (/usr/local/go/test/codegen/bits.go:110)	ADDQ	CX, AX
+	0x0019 00025 (/usr/local/go/test/codegen/bits.go:113)	MOVQ	DX, CX
+	0x001c 00028 (/usr/local/go/test/codegen/bits.go:113)	BTRQ	$60, DX
+	0x0021 00033 (/usr/local/go/test/codegen/bits.go:113)	ADDQ	DX, AX
+	0x0024 00036 (/usr/local/go/test/codegen/bits.go:116)	ANDQ	$-2, CX
+	0x0028 00040 (/usr/local/go/test/codegen/bits.go:116)	ADDQ	CX, AX
+	0x002b 00043 (/usr/local/go/test/codegen/bits.go:118)	MOVQ	AX, "".n+24(SP)
+	0x0030 00048 (/usr/local/go/test/codegen/bits.go:118)	RET
+	0x0000 48 8b 44 24 10 48 8b 4c 24 08 48 0f b3 c8 48 89  H.D$.H.L$.H...H.
+	0x0010 ca 48 0f ba f1 3f 48 01 c8 48 89 d1 48 0f ba f2  .H...?H..H..H...
+	0x0020 3c 48 01 d0 48 83 e1 fe 48 01 c8 48 89 44 24 18  <H..H...H..H.D$.
+	0x0030 c3                                               .
+"".bitcompl64 STEXT nosplit size=49 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:121)	TEXT	"".bitcompl64(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:121)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:121)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:123)	MOVQ	"".b+16(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:123)	MOVQ	"".a+8(SP), CX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:123)	BTCQ	CX, AX
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:126)	MOVQ	CX, DX
+	0x0011 00017 (/usr/local/go/test/codegen/bits.go:126)	BTCQ	$63, CX
+	0x0016 00022 (/usr/local/go/test/codegen/bits.go:126)	ADDQ	CX, AX
+	0x0019 00025 (/usr/local/go/test/codegen/bits.go:129)	MOVQ	DX, CX
+	0x001c 00028 (/usr/local/go/test/codegen/bits.go:129)	BTCQ	$60, DX
+	0x0021 00033 (/usr/local/go/test/codegen/bits.go:129)	ADDQ	DX, AX
+	0x0024 00036 (/usr/local/go/test/codegen/bits.go:132)	XORQ	$1, CX
+	0x0028 00040 (/usr/local/go/test/codegen/bits.go:132)	ADDQ	CX, AX
+	0x002b 00043 (/usr/local/go/test/codegen/bits.go:134)	MOVQ	AX, "".n+24(SP)
+	0x0030 00048 (/usr/local/go/test/codegen/bits.go:134)	RET
+	0x0000 48 8b 44 24 10 48 8b 4c 24 08 48 0f bb c8 48 89  H.D$.H.L$.H...H.
+	0x0010 ca 48 0f ba f9 3f 48 01 c8 48 89 d1 48 0f ba fa  .H...?H..H..H...
+	0x0020 3c 48 01 d0 48 83 f1 01 48 01 c8 48 89 44 24 18  <H..H...H..H.D$.
+	0x0030 c3                                               .
+"".bitcheck32_constleft STEXT nosplit size=63 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:141)	TEXT	"".bitcheck32_constleft(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:141)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:141)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:143)	MOVL	"".a+8(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:143)	BTL	$31, AX
+	0x0008 00008 (/usr/local/go/test/codegen/bits.go:143)	JCS	53
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:147)	BTL	$28, AX
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:147)	JCS	43
+	0x0010 00016 (/usr/local/go/test/codegen/bits.go:151)	BTL	$0, AX
+	0x0014 00020 (/usr/local/go/test/codegen/bits.go:151)	JCC	33
+	0x0016 00022 (/usr/local/go/test/codegen/bits.go:152)	MOVQ	$1, "".n+16(SP)
+	0x001f 00031 (/usr/local/go/test/codegen/bits.go:152)	NOP
+	0x0020 00032 (/usr/local/go/test/codegen/bits.go:152)	RET
+	0x0021 00033 (/usr/local/go/test/codegen/bits.go:154)	MOVQ	$0, "".n+16(SP)
+	0x002a 00042 (/usr/local/go/test/codegen/bits.go:154)	RET
+	0x002b 00043 (/usr/local/go/test/codegen/bits.go:148)	MOVQ	$1, "".n+16(SP)
+	0x0034 00052 (/usr/local/go/test/codegen/bits.go:148)	RET
+	0x0035 00053 (/usr/local/go/test/codegen/bits.go:144)	MOVQ	$1, "".n+16(SP)
+	0x003e 00062 (/usr/local/go/test/codegen/bits.go:144)	RET
+	0x0000 8b 44 24 08 0f ba e0 1f 72 2b 0f ba e0 1c 72 1b  .D$.....r+....r.
+	0x0010 0f ba e0 00 73 0b 48 c7 44 24 10 01 00 00 00 90  ....s.H.D$......
+	0x0020 c3 48 c7 44 24 10 00 00 00 00 c3 48 c7 44 24 10  .H.D$......H.D$.
+	0x0030 01 00 00 00 c3 48 c7 44 24 10 01 00 00 00 c3     .....H.D$......
+"".bitcheck32_constright STEXT nosplit size=157 args=0x28 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:157)	TEXT	"".bitcheck32_constright(SB), NOSPLIT|ABIInternal, $0-40
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:157)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:157)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:159)	MOVL	"".a+8(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:159)	BTL	$31, AX
+	0x0008 00008 (/usr/local/go/test/codegen/bits.go:159)	JCS	147
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:163)	MOVL	"".a+12(SP), AX
+	0x0012 00018 (/usr/local/go/test/codegen/bits.go:163)	BTL	$31, AX
+	0x0016 00022 (/usr/local/go/test/codegen/bits.go:163)	JCS	137
+	0x0018 00024 (/usr/local/go/test/codegen/bits.go:167)	MOVL	"".a+16(SP), AX
+	0x001c 00028 (/usr/local/go/test/codegen/bits.go:167)	BTL	$31, AX
+	0x0020 00032 (/usr/local/go/test/codegen/bits.go:167)	JCC	127
+	0x0022 00034 (/usr/local/go/test/codegen/bits.go:171)	MOVL	"".a+20(SP), AX
+	0x0026 00038 (/usr/local/go/test/codegen/bits.go:171)	BTL	$28, AX
+	0x002a 00042 (/usr/local/go/test/codegen/bits.go:171)	JCC	117
+	0x002c 00044 (/usr/local/go/test/codegen/bits.go:175)	MOVL	"".a+24(SP), AX
+	0x0030 00048 (/usr/local/go/test/codegen/bits.go:175)	BTL	$1, AX
+	0x0034 00052 (/usr/local/go/test/codegen/bits.go:175)	JCC	107
+	0x0036 00054 (/usr/local/go/test/codegen/bits.go:179)	MOVL	"".a+28(SP), AX
+	0x003a 00058 (/usr/local/go/test/codegen/bits.go:179)	BTL	$0, AX
+	0x003e 00062 (/usr/local/go/test/codegen/bits.go:179)	NOP
+	0x0040 00064 (/usr/local/go/test/codegen/bits.go:179)	JCC	97
+	0x0042 00066 (/usr/local/go/test/codegen/bits.go:183)	MOVL	"".a+32(SP), AX
+	0x0046 00070 (/usr/local/go/test/codegen/bits.go:183)	BTL	$7, AX
+	0x004a 00074 (/usr/local/go/test/codegen/bits.go:183)	JCS	86
+	0x004c 00076 (/usr/local/go/test/codegen/bits.go:184)	MOVQ	$1, "".n+40(SP)
+	0x0055 00085 (/usr/local/go/test/codegen/bits.go:184)	RET
+	0x0056 00086 (/usr/local/go/test/codegen/bits.go:186)	MOVQ	$0, "".n+40(SP)
+	0x005f 00095 (/usr/local/go/test/codegen/bits.go:186)	NOP
+	0x0060 00096 (/usr/local/go/test/codegen/bits.go:186)	RET
+	0x0061 00097 (/usr/local/go/test/codegen/bits.go:180)	MOVQ	$1, "".n+40(SP)
+	0x006a 00106 (/usr/local/go/test/codegen/bits.go:180)	RET
+	0x006b 00107 (/usr/local/go/test/codegen/bits.go:176)	MOVQ	$1, "".n+40(SP)
+	0x0074 00116 (/usr/local/go/test/codegen/bits.go:176)	RET
+	0x0075 00117 (/usr/local/go/test/codegen/bits.go:172)	MOVQ	$1, "".n+40(SP)
+	0x007e 00126 (/usr/local/go/test/codegen/bits.go:172)	RET
+	0x007f 00127 (/usr/local/go/test/codegen/bits.go:168)	MOVQ	$1, "".n+40(SP)
+	0x0088 00136 (/usr/local/go/test/codegen/bits.go:168)	RET
+	0x0089 00137 (/usr/local/go/test/codegen/bits.go:164)	MOVQ	$1, "".n+40(SP)
+	0x0092 00146 (/usr/local/go/test/codegen/bits.go:164)	RET
+	0x0093 00147 (/usr/local/go/test/codegen/bits.go:160)	MOVQ	$1, "".n+40(SP)
+	0x009c 00156 (/usr/local/go/test/codegen/bits.go:160)	RET
+	0x0000 8b 44 24 08 0f ba e0 1f 0f 82 85 00 00 00 8b 44  .D$............D
+	0x0010 24 0c 0f ba e0 1f 72 71 8b 44 24 10 0f ba e0 1f  $.....rq.D$.....
+	0x0020 73 5d 8b 44 24 14 0f ba e0 1c 73 49 8b 44 24 18  s].D$.....sI.D$.
+	0x0030 0f ba e0 01 73 35 8b 44 24 1c 0f ba e0 00 66 90  ....s5.D$.....f.
+	0x0040 73 1f 8b 44 24 20 0f ba e0 07 72 0a 48 c7 44 24  s..D$ ....r.H.D$
+	0x0050 28 01 00 00 00 c3 48 c7 44 24 28 00 00 00 00 90  (.....H.D$(.....
+	0x0060 c3 48 c7 44 24 28 01 00 00 00 c3 48 c7 44 24 28  .H.D$(.....H.D$(
+	0x0070 01 00 00 00 c3 48 c7 44 24 28 01 00 00 00 c3 48  .....H.D$(.....H
+	0x0080 c7 44 24 28 01 00 00 00 c3 48 c7 44 24 28 01 00  .D$(.....H.D$(..
+	0x0090 00 00 c3 48 c7 44 24 28 01 00 00 00 c3           ...H.D$(.....
+"".bitcheck32_var STEXT nosplit size=48 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:189)	TEXT	"".bitcheck32_var(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:189)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:189)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:191)	MOVL	"".b+12(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:191)	MOVL	"".a+8(SP), CX
+	0x0008 00008 (/usr/local/go/test/codegen/bits.go:191)	BTL	AX, CX
+	0x000b 00011 (/usr/local/go/test/codegen/bits.go:191)	JCS	38
+	0x000d 00013 (/usr/local/go/test/codegen/bits.go:195)	BTL	CX, AX
+	0x0010 00016 (/usr/local/go/test/codegen/bits.go:195)	JCC	28
+	0x0012 00018 (/usr/local/go/test/codegen/bits.go:196)	MOVQ	$1, "".n+16(SP)
+	0x001b 00027 (/usr/local/go/test/codegen/bits.go:196)	RET
+	0x001c 00028 (/usr/local/go/test/codegen/bits.go:198)	MOVQ	$0, "".n+16(SP)
+	0x0025 00037 (/usr/local/go/test/codegen/bits.go:198)	RET
+	0x0026 00038 (/usr/local/go/test/codegen/bits.go:192)	MOVQ	$1, "".n+16(SP)
+	0x002f 00047 (/usr/local/go/test/codegen/bits.go:192)	RET
+	0x0000 8b 44 24 0c 8b 4c 24 08 0f a3 c1 72 19 0f a3 c8  .D$..L$....r....
+	0x0010 73 0a 48 c7 44 24 10 01 00 00 00 c3 48 c7 44 24  s.H.D$......H.D$
+	0x0020 10 00 00 00 00 c3 48 c7 44 24 10 01 00 00 00 c3  ......H.D$......
+"".bitcheck32_mask STEXT nosplit size=63 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:201)	TEXT	"".bitcheck32_mask(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:201)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:201)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:203)	MOVL	"".a+8(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:203)	BTL	$31, AX
+	0x0008 00008 (/usr/local/go/test/codegen/bits.go:203)	JCS	53
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:207)	BTL	$27, AX
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:207)	JCS	43
+	0x0010 00016 (/usr/local/go/test/codegen/bits.go:211)	BTL	$0, AX
+	0x0014 00020 (/usr/local/go/test/codegen/bits.go:211)	JCC	33
+	0x0016 00022 (/usr/local/go/test/codegen/bits.go:212)	MOVQ	$1, "".n+16(SP)
+	0x001f 00031 (/usr/local/go/test/codegen/bits.go:212)	NOP
+	0x0020 00032 (/usr/local/go/test/codegen/bits.go:212)	RET
+	0x0021 00033 (/usr/local/go/test/codegen/bits.go:214)	MOVQ	$0, "".n+16(SP)
+	0x002a 00042 (/usr/local/go/test/codegen/bits.go:214)	RET
+	0x002b 00043 (/usr/local/go/test/codegen/bits.go:208)	MOVQ	$1, "".n+16(SP)
+	0x0034 00052 (/usr/local/go/test/codegen/bits.go:208)	RET
+	0x0035 00053 (/usr/local/go/test/codegen/bits.go:204)	MOVQ	$1, "".n+16(SP)
+	0x003e 00062 (/usr/local/go/test/codegen/bits.go:204)	RET
+	0x0000 8b 44 24 08 0f ba e0 1f 72 2b 0f ba e0 1b 72 1b  .D$.....r+....r.
+	0x0010 0f ba e0 00 73 0b 48 c7 44 24 10 01 00 00 00 90  ....s.H.D$......
+	0x0020 c3 48 c7 44 24 10 00 00 00 00 c3 48 c7 44 24 10  .H.D$......H.D$.
+	0x0030 01 00 00 00 c3 48 c7 44 24 10 01 00 00 00 c3     .....H.D$......
+"".biton32 STEXT nosplit size=37 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:217)	TEXT	"".biton32(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:217)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:217)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:219)	MOVL	"".b+12(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:219)	MOVL	"".a+8(SP), CX
+	0x0008 00008 (/usr/local/go/test/codegen/bits.go:219)	BTSL	CX, AX
+	0x000b 00011 (/usr/local/go/test/codegen/bits.go:222)	MOVL	CX, DX
+	0x000d 00013 (/usr/local/go/test/codegen/bits.go:222)	BTSL	$31, CX
+	0x0011 00017 (/usr/local/go/test/codegen/bits.go:222)	ADDL	CX, AX
+	0x0013 00019 (/usr/local/go/test/codegen/bits.go:225)	MOVL	DX, CX
+	0x0015 00021 (/usr/local/go/test/codegen/bits.go:225)	BTSL	$28, DX
+	0x0019 00025 (/usr/local/go/test/codegen/bits.go:225)	ADDL	DX, AX
+	0x001b 00027 (/usr/local/go/test/codegen/bits.go:228)	ORL	$1, CX
+	0x001e 00030 (/usr/local/go/test/codegen/bits.go:228)	ADDL	CX, AX
+	0x0020 00032 (/usr/local/go/test/codegen/bits.go:230)	MOVL	AX, "".n+16(SP)
+	0x0024 00036 (/usr/local/go/test/codegen/bits.go:230)	RET
+	0x0000 8b 44 24 0c 8b 4c 24 08 0f ab c8 89 ca 0f ba e9  .D$..L$.........
+	0x0010 1f 01 c8 89 d1 0f ba ea 1c 01 d0 83 c9 01 01 c8  ................
+	0x0020 89 44 24 10 c3                                   .D$..
+"".bitoff32 STEXT nosplit size=37 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:233)	TEXT	"".bitoff32(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:233)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:233)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:235)	MOVL	"".b+12(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:235)	MOVL	"".a+8(SP), CX
+	0x0008 00008 (/usr/local/go/test/codegen/bits.go:235)	BTRL	CX, AX
+	0x000b 00011 (/usr/local/go/test/codegen/bits.go:238)	MOVL	CX, DX
+	0x000d 00013 (/usr/local/go/test/codegen/bits.go:238)	BTRL	$31, CX
+	0x0011 00017 (/usr/local/go/test/codegen/bits.go:238)	ADDL	CX, AX
+	0x0013 00019 (/usr/local/go/test/codegen/bits.go:241)	MOVL	DX, CX
+	0x0015 00021 (/usr/local/go/test/codegen/bits.go:241)	BTRL	$28, DX
+	0x0019 00025 (/usr/local/go/test/codegen/bits.go:241)	ADDL	DX, AX
+	0x001b 00027 (/usr/local/go/test/codegen/bits.go:244)	ANDL	$-2, CX
+	0x001e 00030 (/usr/local/go/test/codegen/bits.go:244)	ADDL	CX, AX
+	0x0020 00032 (/usr/local/go/test/codegen/bits.go:246)	MOVL	AX, "".n+16(SP)
+	0x0024 00036 (/usr/local/go/test/codegen/bits.go:246)	RET
+	0x0000 8b 44 24 0c 8b 4c 24 08 0f b3 c8 89 ca 0f ba f1  .D$..L$.........
+	0x0010 1f 01 c8 89 d1 0f ba f2 1c 01 d0 83 e1 fe 01 c8  ................
+	0x0020 89 44 24 10 c3                                   .D$..
+"".bitcompl32 STEXT nosplit size=37 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:249)	TEXT	"".bitcompl32(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:249)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:249)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:251)	MOVL	"".b+12(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:251)	MOVL	"".a+8(SP), CX
+	0x0008 00008 (/usr/local/go/test/codegen/bits.go:251)	BTCL	CX, AX
+	0x000b 00011 (/usr/local/go/test/codegen/bits.go:254)	MOVL	CX, DX
+	0x000d 00013 (/usr/local/go/test/codegen/bits.go:254)	BTCL	$31, CX
+	0x0011 00017 (/usr/local/go/test/codegen/bits.go:254)	ADDL	CX, AX
+	0x0013 00019 (/usr/local/go/test/codegen/bits.go:257)	MOVL	DX, CX
+	0x0015 00021 (/usr/local/go/test/codegen/bits.go:257)	BTCL	$28, DX
+	0x0019 00025 (/usr/local/go/test/codegen/bits.go:257)	ADDL	DX, AX
+	0x001b 00027 (/usr/local/go/test/codegen/bits.go:260)	XORL	$1, CX
+	0x001e 00030 (/usr/local/go/test/codegen/bits.go:260)	ADDL	CX, AX
+	0x0020 00032 (/usr/local/go/test/codegen/bits.go:262)	MOVL	AX, "".n+16(SP)
+	0x0024 00036 (/usr/local/go/test/codegen/bits.go:262)	RET
+	0x0000 8b 44 24 0c 8b 4c 24 08 0f bb c8 89 ca 0f ba f9  .D$..L$.........
+	0x0010 1f 01 c8 89 d1 0f ba fa 1c 01 d0 83 f1 01 01 c8  ................
+	0x0020 89 44 24 10 c3                                   .D$..
+"".bitOpOnMem STEXT nosplit size=173 args=0x18 locals=0x18
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:266)	TEXT	"".bitOpOnMem(SB), NOSPLIT|ABIInternal, $24-24
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:266)	SUBQ	$24, SP
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:266)	MOVQ	BP, 16(SP)
+	0x0009 00009 (/usr/local/go/test/codegen/bits.go:266)	LEAQ	16(SP), BP
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:266)	FUNCDATA	$0, gclocals·1a65e721a2ccc325b382662e7ffee780(SB)
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:266)	FUNCDATA	$1, gclocals·69c1753bd5f81501d95132d08af04464(SB)
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:268)	MOVQ	"".a+40(SP), CX
+	0x0013 00019 (/usr/local/go/test/codegen/bits.go:268)	TESTQ	CX, CX
+	0x0016 00022 (/usr/local/go/test/codegen/bits.go:268)	JLS	165
+	0x001c 00028 (/usr/local/go/test/codegen/bits.go:268)	MOVQ	"".a+32(SP), DX
+	0x0021 00033 (/usr/local/go/test/codegen/bits.go:268)	ANDL	$200, (DX)
+	0x0027 00039 (/usr/local/go/test/codegen/bits.go:270)	CMPQ	CX, $1
+	0x002b 00043 (/usr/local/go/test/codegen/bits.go:270)	JLS	153
+	0x002d 00045 (/usr/local/go/test/codegen/bits.go:270)	ORL	$220, 4(DX)
+	0x0034 00052 (/usr/local/go/test/codegen/bits.go:272)	CMPQ	CX, $2
+	0x0038 00056 (/usr/local/go/test/codegen/bits.go:272)	JLS	143
+	0x003a 00058 (/usr/local/go/test/codegen/bits.go:272)	XORL	$240, 8(DX)
+	0x0041 00065 (/usr/local/go/test/codegen/bits.go:274)	CMPQ	CX, $3
+	0x0045 00069 (/usr/local/go/test/codegen/bits.go:274)	JLS	133
+	0x0047 00071 (/usr/local/go/test/codegen/bits.go:274)	BTRL	$15, 12(DX)
+	0x004c 00076 (/usr/local/go/test/codegen/bits.go:276)	CMPQ	CX, $4
+	0x0050 00080 (/usr/local/go/test/codegen/bits.go:276)	JLS	118
+	0x0052 00082 (/usr/local/go/test/codegen/bits.go:276)	BTSL	$14, 16(DX)
+	0x0057 00087 (/usr/local/go/test/codegen/bits.go:278)	CMPQ	CX, $5
+	0x005b 00091 (/usr/local/go/test/codegen/bits.go:278)	JLS	108
+	0x005d 00093 (/usr/local/go/test/codegen/bits.go:278)	BTCL	$13, 20(DX)
+	0x0062 00098 (/usr/local/go/test/codegen/bits.go:279)	MOVQ	16(SP), BP
+	0x0067 00103 (/usr/local/go/test/codegen/bits.go:279)	ADDQ	$24, SP
+	0x006b 00107 (/usr/local/go/test/codegen/bits.go:279)	RET
+	0x006c 00108 (/usr/local/go/test/codegen/bits.go:278)	MOVL	$5, AX
+	0x0071 00113 (/usr/local/go/test/codegen/bits.go:278)	PCDATA	$1, $1
+	0x0071 00113 (/usr/local/go/test/codegen/bits.go:278)	CALL	runtime.panicIndex(SB)
+	0x0076 00118 (/usr/local/go/test/codegen/bits.go:276)	MOVL	$4, AX
+	0x007b 00123 (/usr/local/go/test/codegen/bits.go:276)	NOP
+	0x0080 00128 (/usr/local/go/test/codegen/bits.go:276)	CALL	runtime.panicIndex(SB)
+	0x0085 00133 (/usr/local/go/test/codegen/bits.go:274)	MOVL	$3, AX
+	0x008a 00138 (/usr/local/go/test/codegen/bits.go:274)	CALL	runtime.panicIndex(SB)
+	0x008f 00143 (/usr/local/go/test/codegen/bits.go:272)	MOVL	$2, AX
+	0x0094 00148 (/usr/local/go/test/codegen/bits.go:272)	CALL	runtime.panicIndex(SB)
+	0x0099 00153 (/usr/local/go/test/codegen/bits.go:270)	MOVL	$1, AX
+	0x009e 00158 (/usr/local/go/test/codegen/bits.go:270)	NOP
+	0x00a0 00160 (/usr/local/go/test/codegen/bits.go:270)	CALL	runtime.panicIndex(SB)
+	0x00a5 00165 (/usr/local/go/test/codegen/bits.go:268)	XORL	AX, AX
+	0x00a7 00167 (/usr/local/go/test/codegen/bits.go:268)	CALL	runtime.panicIndex(SB)
+	0x00ac 00172 (/usr/local/go/test/codegen/bits.go:268)	XCHGL	AX, AX
+	0x0000 48 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 8b  H...H.l$.H.l$.H.
+	0x0010 4c 24 28 48 85 c9 0f 86 89 00 00 00 48 8b 54 24  L$(H........H.T$
+	0x0020 20 81 22 c8 00 00 00 48 83 f9 01 76 6c 81 4a 04   ."....H...vl.J.
+	0x0030 dc 00 00 00 48 83 f9 02 76 55 81 72 08 f0 00 00  ....H...vU.r....
+	0x0040 00 48 83 f9 03 76 3e 0f ba 72 0c 0f 48 83 f9 04  .H...v>..r..H...
+	0x0050 76 24 0f ba 6a 10 0e 48 83 f9 05 76 0f 0f ba 7a  v$..j..H...v...z
+	0x0060 14 0d 48 8b 6c 24 10 48 83 c4 18 c3 b8 05 00 00  ..H.l$.H........
+	0x0070 00 e8 00 00 00 00 b8 04 00 00 00 0f 1f 44 00 00  .............D..
+	0x0080 e8 00 00 00 00 b8 03 00 00 00 e8 00 00 00 00 b8  ................
+	0x0090 02 00 00 00 e8 00 00 00 00 b8 01 00 00 00 66 90  ..............f.
+	0x00a0 e8 00 00 00 00 31 c0 e8 00 00 00 00 90           .....1.......
+	rel 114+4 t=8 runtime.panicIndex+0
+	rel 129+4 t=8 runtime.panicIndex+0
+	rel 139+4 t=8 runtime.panicIndex+0
+	rel 149+4 t=8 runtime.panicIndex+0
+	rel 161+4 t=8 runtime.panicIndex+0
+	rel 168+4 t=8 runtime.panicIndex+0
+"".bitcheckMostNegative STEXT nosplit size=13 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:281)	TEXT	"".bitcheckMostNegative(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:281)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:281)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:283)	MOVBLZX	"".b+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:283)	TESTB	$-128, AL
+	0x0007 00007 (/usr/local/go/test/codegen/bits.go:283)	SETNE	"".~r1+16(SP)
+	0x000c 00012 (/usr/local/go/test/codegen/bits.go:283)	RET
+	0x0000 0f b6 44 24 08 a8 80 0f 95 44 24 10 c3           ..D$.....D$..
+"".and_mask_1 STEXT nosplit size=16 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:288)	TEXT	"".and_mask_1(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:288)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:288)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:290)	MOVQ	"".a+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:290)	BTRQ	$63, AX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:290)	MOVQ	AX, "".~r1+16(SP)
+	0x000f 00015 (/usr/local/go/test/codegen/bits.go:290)	RET
+	0x0000 48 8b 44 24 08 48 0f ba f0 3f 48 89 44 24 10 c3  H.D$.H...?H.D$..
+"".and_mask_2 STEXT nosplit size=24 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:293)	TEXT	"".and_mask_2(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:293)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:293)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:295)	MOVQ	"".a+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:295)	MOVQ	$-9223372036854775808, CX
+	0x000f 00015 (/usr/local/go/test/codegen/bits.go:295)	ANDQ	CX, AX
+	0x0012 00018 (/usr/local/go/test/codegen/bits.go:295)	MOVQ	AX, "".~r1+16(SP)
+	0x0017 00023 (/usr/local/go/test/codegen/bits.go:295)	RET
+	0x0000 48 8b 44 24 08 48 b9 00 00 00 00 00 00 00 80 48  H.D$.H.........H
+	0x0010 21 c8 48 89 44 24 10 c3                          !.H.D$..
+"".and_mask_3 STEXT nosplit size=27 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:298)	TEXT	"".and_mask_3(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:298)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:298)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:300)	MOVL	"".a+8(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:300)	ANDL	$-21846, AX
+	0x0009 00009 (/usr/local/go/test/codegen/bits.go:303)	MOVL	AX, "".~r2+16(SP)
+	0x000d 00013 (/usr/local/go/test/codegen/bits.go:302)	MOVL	"".b+12(SP), AX
+	0x0011 00017 (/usr/local/go/test/codegen/bits.go:302)	ANDL	$-4193281, AX
+	0x0016 00022 (/usr/local/go/test/codegen/bits.go:303)	MOVL	AX, "".~r3+20(SP)
+	0x001a 00026 (/usr/local/go/test/codegen/bits.go:303)	RET
+	0x0000 8b 44 24 08 25 aa aa ff ff 89 44 24 10 8b 44 24  .D$.%.....D$..D$
+	0x0010 0c 25 ff 03 c0 ff 89 44 24 14 c3                 .%.....D$..
+"".op_bic STEXT nosplit size=17 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:308)	TEXT	"".op_bic(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:308)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:308)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:310)	MOVL	"".y+12(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:310)	NOTL	AX
+	0x0006 00006 (/usr/local/go/test/codegen/bits.go:310)	MOVL	"".x+8(SP), CX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:310)	ANDL	AX, CX
+	0x000c 00012 (/usr/local/go/test/codegen/bits.go:310)	MOVL	CX, "".~r2+16(SP)
+	0x0010 00016 (/usr/local/go/test/codegen/bits.go:310)	RET
+	0x0000 8b 44 24 0c f7 d0 8b 4c 24 08 21 c1 89 4c 24 10  .D$....L$.!..L$.
+	0x0010 c3                                               .
+"".op_eon STEXT nosplit size=17 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:313)	TEXT	"".op_eon(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:313)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:313)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:315)	MOVL	"".y+12(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:315)	NOTL	AX
+	0x0006 00006 (/usr/local/go/test/codegen/bits.go:315)	MOVL	"".x+8(SP), CX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:315)	XORL	AX, CX
+	0x000c 00012 (/usr/local/go/test/codegen/bits.go:315)	MOVL	CX, "".~r2+16(SP)
+	0x0010 00016 (/usr/local/go/test/codegen/bits.go:315)	RET
+	0x0000 8b 44 24 0c f7 d0 8b 4c 24 08 31 c1 89 4c 24 10  .D$....L$.1..L$.
+	0x0010 c3                                               .
+"".op_orn STEXT nosplit size=17 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:318)	TEXT	"".op_orn(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:318)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:318)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:320)	MOVL	"".y+12(SP), AX
+	0x0004 00004 (/usr/local/go/test/codegen/bits.go:320)	NOTL	AX
+	0x0006 00006 (/usr/local/go/test/codegen/bits.go:320)	MOVL	"".x+8(SP), CX
+	0x000a 00010 (/usr/local/go/test/codegen/bits.go:320)	ORL	AX, CX
+	0x000c 00012 (/usr/local/go/test/codegen/bits.go:320)	MOVL	CX, "".~r2+16(SP)
+	0x0010 00016 (/usr/local/go/test/codegen/bits.go:320)	RET
+	0x0000 8b 44 24 0c f7 d0 8b 4c 24 08 09 c1 89 4c 24 10  .D$....L$....L$.
+	0x0010 c3                                               .
+"".bitSetPowerOf2Test STEXT nosplit size=15 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:324)	TEXT	"".bitSetPowerOf2Test(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:324)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:324)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:326)	MOVQ	"".x+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:326)	BTL	$3, AX
+	0x0009 00009 (/usr/local/go/test/codegen/bits.go:326)	SETCS	"".~r1+16(SP)
+	0x000e 00014 (/usr/local/go/test/codegen/bits.go:326)	RET
+	0x0000 48 8b 44 24 08 0f ba e0 03 0f 92 44 24 10 c3     H.D$.......D$..
+"".bitSetTest STEXT nosplit size=19 args=0x10 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:329)	TEXT	"".bitSetTest(SB), NOSPLIT|ABIInternal, $0-16
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:329)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:329)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/bits.go:332)	MOVQ	"".x+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/bits.go:332)	ANDQ	$9, AX
+	0x0009 00009 (/usr/local/go/test/codegen/bits.go:332)	CMPQ	AX, $9
+	0x000d 00013 (/usr/local/go/test/codegen/bits.go:332)	SETEQ	"".~r1+16(SP)
+	0x0012 00018 (/usr/local/go/test/codegen/bits.go:332)	RET
+	0x0000 48 8b 44 24 08 48 83 e0 09 48 83 f8 09 0f 94 44  H.D$.H...H.....D
+	0x0010 24 10 c3                                         $..
+go.cuinfo.packagename.command-line-arguments SDWARFINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+runtime.memequal64·f SRODATA dupok size=8
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 runtime.memequal64+0
+runtime.gcbits.01 SRODATA dupok size=1
+	0x0000 01                                               .
+type..namedata.*[]uint32- SRODATA dupok size=12
+	0x0000 00 00 09 2a 5b 5d 75 69 6e 74 33 32              ...*[]uint32
+type.*[]uint32 SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 a9 25 88 3f 08 08 08 36 00 00 00 00 00 00 00 00  .%.?...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f+0
+	rel 32+8 t=1 runtime.gcbits.01+0
+	rel 40+4 t=5 type..namedata.*[]uint32-+0
+	rel 48+8 t=1 type.[]uint32+0
+type.[]uint32 SRODATA dupok size=56
+	0x0000 18 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 d4 91 1d 1f 02 08 08 17 00 00 00 00 00 00 00 00  ................
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=1 runtime.gcbits.01+0
+	rel 40+4 t=5 type..namedata.*[]uint32-+0
+	rel 44+4 t=6 type.*[]uint32+0
+	rel 48+8 t=1 type.uint32+0
+type..eqfunc32 SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 20 00 00 00 00 00 00 00  ........ .......
+	rel 0+8 t=1 runtime.memequal_varlen+0
+type..namedata.*[8]uint32- SRODATA dupok size=13
+	0x0000 00 00 0a 2a 5b 38 5d 75 69 6e 74 33 32           ...*[8]uint32
+type.*[8]uint32 SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 69 a5 a8 5c 08 08 08 36 00 00 00 00 00 00 00 00  i..\...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f+0
+	rel 32+8 t=1 runtime.gcbits.01+0
+	rel 40+4 t=5 type..namedata.*[8]uint32-+0
+	rel 48+8 t=1 type.[8]uint32+0
+runtime.gcbits. SRODATA dupok size=0
+type.[8]uint32 SRODATA dupok size=72
+	0x0000 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ...............
+	0x0010 a5 88 2e c0 0a 04 04 11 00 00 00 00 00 00 00 00  ................
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 08 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 type..eqfunc32+0
+	rel 32+8 t=1 runtime.gcbits.+0
+	rel 40+4 t=5 type..namedata.*[8]uint32-+0
+	rel 44+4 t=6 type.*[8]uint32+0
+	rel 48+8 t=1 type.uint32+0
+	rel 56+8 t=1 type.[]uint32+0
+type..namedata.*[]uint64- SRODATA dupok size=12
+	0x0000 00 00 09 2a 5b 5d 75 69 6e 74 36 34              ...*[]uint64
+type.*[]uint64 SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 2f 44 4b 5c 08 08 08 36 00 00 00 00 00 00 00 00  /DK\...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f+0
+	rel 32+8 t=1 runtime.gcbits.01+0
+	rel 40+4 t=5 type..namedata.*[]uint64-+0
+	rel 48+8 t=1 type.[]uint64+0
+type.[]uint64 SRODATA dupok size=56
+	0x0000 18 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 3f b5 69 20 02 08 08 17 00 00 00 00 00 00 00 00  ?.i ............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 32+8 t=1 runtime.gcbits.01+0
+	rel 40+4 t=5 type..namedata.*[]uint64-+0
+	rel 44+4 t=6 type.*[]uint64+0
+	rel 48+8 t=1 type.uint64+0
+type..eqfunc64 SRODATA dupok size=16
+	0x0000 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00  ........@.......
+	rel 0+8 t=1 runtime.memequal_varlen+0
+type..namedata.*[8]uint64- SRODATA dupok size=13
+	0x0000 00 00 0a 2a 5b 38 5d 75 69 6e 74 36 34           ...*[8]uint64
+type.*[8]uint64 SRODATA dupok size=56
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 d7 93 05 4e 08 08 08 36 00 00 00 00 00 00 00 00  ...N...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.memequal64·f+0
+	rel 32+8 t=1 runtime.gcbits.01+0
+	rel 40+4 t=5 type..namedata.*[8]uint64-+0
+	rel 48+8 t=1 type.[8]uint64+0
+type.[8]uint64 SRODATA dupok size=72
+	0x0000 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  @...............
+	0x0010 de d1 5e fa 0a 08 08 11 00 00 00 00 00 00 00 00  ..^.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 08 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 type..eqfunc64+0
+	rel 32+8 t=1 runtime.gcbits.+0
+	rel 40+4 t=5 type..namedata.*[8]uint64-+0
+	rel 44+4 t=6 type.*[8]uint64+0
+	rel 48+8 t=1 type.uint64+0
+	rel 56+8 t=1 type.[]uint64+0
+gclocals·33cdeccccebe80329f1fdbee7f5874cb SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+gclocals·1a65e721a2ccc325b382662e7ffee780 SRODATA dupok size=10
+	0x0000 02 00 00 00 01 00 00 00 01 00                    ..........
+gclocals·69c1753bd5f81501d95132d08af04464 SRODATA dupok size=8
+	0x0000 02 00 00 00 00 00 00 00                          ........
+aux for "".bitcheck64_constleft SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 41 00 00 00 00 00 00 00  ........A.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 22 00 00 00 00 00 00 00 41 00 00 00 00  ...".......A....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".bitcheck64_constleft+0
+	rel 59+8 t=1 "".bitcheck64_constleft+0
+aux for "".bitcheck64_constleft SDWARFLINES size=38
+	0x0000 04 02 03 09 14 06 41 06 59 06 41 06 27 06 37 06  ......A.Y.A.'.7.
+	0x0010 24 06 69 06 1b 06 69 06 03 7e 15 06 69 06 15 06  $.i...i..~..i...
+	0x0020 69 02 01 00 01 01                                i.....
+aux for "".bitcheck64_constleft SDWARFINFO size=95
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 36 34 5f 63 6f 6e 73 74 6c 65 66 74 00 00 00 00  64_constleft....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0040 00 00 00 01 10 61 00 00 0d 00 00 00 00 00 00 00  .....a..........
+	0x0050 00 10 6e 00 01 0d 00 00 00 00 00 00 00 00 00     ..n............
+	rel 0+0 t=24 type.int+0
+	rel 0+0 t=24 type.uint64+0
+	rel 45+8 t=1 "".bitcheck64_constleft+0
+	rel 53+8 t=1 "".bitcheck64_constleft+65
+	rel 73+4 t=29 go.info.uint64+0
+	rel 77+4 t=29 +0
+	rel 86+4 t=29 go.info.int+0
+	rel 90+4 t=29 +51
+aux for "".bitcheck64_constright SDWARFLOC size=53
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 5e 00 00 00 00 00 00 00 a5 00 00 00 00 00 00 00  ^...............
+	0x0020 03 00 91 c0 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00                                   .....
+	rel 8+8 t=1 "".bitcheck64_constright+0
+aux for "".bitcheck64_constright SDWARFLINES size=70
+	0x0000 04 02 03 19 14 06 41 06 81 06 41 06 59 06 41 06  ......A...A.Y.A.
+	0x0010 59 06 41 06 59 06 41 06 4f 06 41 06 4f 06 41 06  Y.A.Y.A.O.A.O.A.
+	0x0020 4c 06 69 06 1b 06 69 06 03 7e 15 06 69 06 15 06  L.i...i..~..i...
+	0x0030 69 06 15 06 69 06 15 06 69 06 15 06 69 06 15 06  i...i...i...i...
+	0x0040 69 02 01 00 01 01                                i.....
+aux for "".bitcheck64_constright SDWARFINFO size=94
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 36 34 5f 63 6f 6e 73 74 72 69 67 68 74 00 00 00  64_constright...
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c  ................
+	0x0040 02 00 00 00 01 0f 61 00 00 1d 00 00 00 00 01 9c  ......a.........
+	0x0050 10 6e 00 01 1d 00 00 00 00 00 00 00 00 00        .n............
+	rel 0+0 t=24 type.[8]uint64+0
+	rel 0+0 t=24 type.int+0
+	rel 46+8 t=1 "".bitcheck64_constright+0
+	rel 54+8 t=1 "".bitcheck64_constright+165
+	rel 74+4 t=29 go.info.[8]uint64+0
+	rel 85+4 t=29 go.info.int+0
+	rel 89+4 t=29 +0
+aux for "".bitcheck64_var SDWARFLOC size=155
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 35 00 00 00 00 00 00 00  ........5.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 35 00 00 00 00  ...........5....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0070 00 00 00 00 00 00 00 20 00 00 00 00 00 00 00 35  ....... .......5
+	0x0080 00 00 00 00 00 00 00 02 00 91 10 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 "".bitcheck64_var+0
+	rel 59+8 t=1 "".bitcheck64_var+0
+	rel 111+8 t=1 "".bitcheck64_var+0
+aux for "".bitcheck64_var SDWARFLINES size=30
+	0x0000 04 02 03 39 14 06 41 06 81 06 37 06 24 06 69 06  ...9..A...7.$.i.
+	0x0010 25 06 69 06 03 7e 15 06 69 02 01 00 01 01        %.i..~..i.....
+aux for "".bitcheck64_var SDWARFINFO size=102
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 36 34 5f 76 61 72 00 00 00 00 00 00 00 00 00 00  64_var..........
+	0x0030 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 10 61  ...............a
+	0x0040 00 00 3d 00 00 00 00 00 00 00 00 10 62 00 00 3d  ..=.........b..=
+	0x0050 00 00 00 00 00 00 00 00 10 6e 00 01 3d 00 00 00  .........n..=...
+	0x0060 00 00 00 00 00 00                                ......
+	rel 0+0 t=24 type.int+0
+	rel 0+0 t=24 type.uint64+0
+	rel 39+8 t=1 "".bitcheck64_var+0
+	rel 47+8 t=1 "".bitcheck64_var+53
+	rel 67+4 t=29 go.info.uint64+0
+	rel 71+4 t=29 +0
+	rel 80+4 t=29 go.info.uint64+0
+	rel 84+4 t=29 +51
+	rel 93+4 t=29 go.info.int+0
+	rel 97+4 t=29 +103
+aux for "".bitcheck64_mask SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 41 00 00 00 00 00 00 00  ........A.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 22 00 00 00 00 00 00 00 41 00 00 00 00  ...".......A....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".bitcheck64_mask+0
+	rel 59+8 t=1 "".bitcheck64_mask+0
+aux for "".bitcheck64_mask SDWARFLINES size=39
+	0x0000 04 02 03 c5 00 14 06 41 06 59 06 41 06 27 06 37  .......A.Y.A.'.7
+	0x0010 06 24 06 69 06 1b 06 69 06 03 7e 15 06 69 06 15  .$.i...i..~..i..
+	0x0020 06 69 02 01 00 01 01                             .i.....
+aux for "".bitcheck64_mask SDWARFINFO size=90
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 36 34 5f 6d 61 73 6b 00 00 00 00 00 00 00 00 00  64_mask.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 10  ................
+	0x0040 61 00 00 49 00 00 00 00 00 00 00 00 10 6e 00 01  a..I.........n..
+	0x0050 49 00 00 00 00 00 00 00 00 00                    I.........
+	rel 0+0 t=24 type.int+0
+	rel 0+0 t=24 type.uint64+0
+	rel 40+8 t=1 "".bitcheck64_mask+0
+	rel 48+8 t=1 "".bitcheck64_mask+65
+	rel 68+4 t=29 go.info.uint64+0
+	rel 72+4 t=29 +0
+	rel 81+4 t=29 go.info.int+0
+	rel 85+4 t=29 +51
+aux for "".biton64 SDWARFLOC size=155
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 31 00 00 00 00 00 00 00  ........1.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 31 00 00 00 00  ...........1....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 31  ...............1
+	0x0080 00 00 00 00 00 00 00 02 00 91 10 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 "".biton64+0
+	rel 59+8 t=1 "".biton64+0
+	rel 111+8 t=1 "".biton64+0
+aux for "".biton64 SDWARFLINES size=29
+	0x0000 04 02 03 d5 00 14 06 41 06 6c 06 2d 06 62 06 2d  .......A.l.-.b.-
+	0x0010 06 62 06 37 06 2f 06 41 02 01 00 01 01           .b.7./.A.....
+aux for "".biton64 SDWARFINFO size=95
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 6f 6e 36 34 00  guments.biton64.
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 01 9c 02 00 00 00 01 10 61 00 00 59 00 00 00 00  ........a..Y....
+	0x0040 00 00 00 00 10 62 00 00 59 00 00 00 00 00 00 00  .....b..Y.......
+	0x0050 00 10 6e 00 01 59 00 00 00 00 00 00 00 00 00     ..n..Y.........
+	rel 0+0 t=24 type.uint64+0
+	rel 32+8 t=1 "".biton64+0
+	rel 40+8 t=1 "".biton64+49
+	rel 60+4 t=29 go.info.uint64+0
+	rel 64+4 t=29 +0
+	rel 73+4 t=29 go.info.uint64+0
+	rel 77+4 t=29 +51
+	rel 86+4 t=29 go.info.uint64+0
+	rel 90+4 t=29 +103
+aux for "".bitoff64 SDWARFLOC size=155
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 31 00 00 00 00 00 00 00  ........1.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 31 00 00 00 00  ...........1....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 31  ...............1
+	0x0080 00 00 00 00 00 00 00 02 00 91 10 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 "".bitoff64+0
+	rel 59+8 t=1 "".bitoff64+0
+	rel 111+8 t=1 "".bitoff64+0
+aux for "".bitoff64 SDWARFLINES size=29
+	0x0000 04 02 03 e5 00 14 06 41 06 6c 06 2d 06 62 06 2d  .......A.l.-.b.-
+	0x0010 06 62 06 37 06 2f 06 41 02 01 00 01 01           .b.7./.A.....
+aux for "".bitoff64 SDWARFINFO size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 6f 66 66 36 34  guments.bitoff64
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 01 9c 02 00 00 00 01 10 61 00 00 69 00 00 00  .........a..i...
+	0x0040 00 00 00 00 00 10 62 00 00 69 00 00 00 00 00 00  ......b..i......
+	0x0050 00 00 10 6e 00 01 69 00 00 00 00 00 00 00 00 00  ...n..i.........
+	rel 0+0 t=24 type.uint64+0
+	rel 33+8 t=1 "".bitoff64+0
+	rel 41+8 t=1 "".bitoff64+49
+	rel 61+4 t=29 go.info.uint64+0
+	rel 65+4 t=29 +0
+	rel 74+4 t=29 go.info.uint64+0
+	rel 78+4 t=29 +51
+	rel 87+4 t=29 go.info.uint64+0
+	rel 91+4 t=29 +103
+aux for "".bitcompl64 SDWARFLOC size=155
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 31 00 00 00 00 00 00 00  ........1.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 31 00 00 00 00  ...........1....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 31  ...............1
+	0x0080 00 00 00 00 00 00 00 02 00 91 10 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 "".bitcompl64+0
+	rel 59+8 t=1 "".bitcompl64+0
+	rel 111+8 t=1 "".bitcompl64+0
+aux for "".bitcompl64 SDWARFLINES size=29
+	0x0000 04 02 03 f5 00 14 06 41 06 6c 06 2d 06 62 06 2d  .......A.l.-.b.-
+	0x0010 06 62 06 37 06 2f 06 41 02 01 00 01 01           .b.7./.A.....
+aux for "".bitcompl64 SDWARFINFO size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 6f 6d 70 6c  guments.bitcompl
+	0x0020 36 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00  64..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 10 61 00 00 79 00  ...........a..y.
+	0x0040 00 00 00 00 00 00 00 10 62 00 00 79 00 00 00 00  ........b..y....
+	0x0050 00 00 00 00 10 6e 00 01 79 00 00 00 00 00 00 00  .....n..y.......
+	0x0060 00 00                                            ..
+	rel 0+0 t=24 type.uint64+0
+	rel 35+8 t=1 "".bitcompl64+0
+	rel 43+8 t=1 "".bitcompl64+49
+	rel 63+4 t=29 go.info.uint64+0
+	rel 67+4 t=29 +0
+	rel 76+4 t=29 go.info.uint64+0
+	rel 80+4 t=29 +51
+	rel 89+4 t=29 go.info.uint64+0
+	rel 93+4 t=29 +103
+aux for "".bitcheck32_constleft SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 3f 00 00 00 00 00 00 00  ........?.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 20 00 00 00 00 00 00 00 3f 00 00 00 00  ... .......?....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".bitcheck32_constleft+0
+	rel 59+8 t=1 "".bitcheck32_constleft+0
+aux for "".bitcheck32_constleft SDWARFLINES size=39
+	0x0000 04 02 03 89 01 14 06 37 06 4f 06 37 06 27 06 37  .......7.O.7.'.7
+	0x0010 06 24 06 69 06 25 06 69 06 03 7e 15 06 69 06 15  .$.i.%.i..~..i..
+	0x0020 06 69 02 01 00 01 01                             .i.....
+aux for "".bitcheck32_constleft SDWARFINFO size=97
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 33 32 5f 63 6f 6e 73 74 6c 65 66 74 00 00 00 00  32_constleft....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0040 00 00 00 01 10 61 00 00 8d 01 00 00 00 00 00 00  .....a..........
+	0x0050 00 00 10 6e 00 01 8d 01 00 00 00 00 00 00 00 00  ...n............
+	0x0060 00                                               .
+	rel 0+0 t=24 type.int+0
+	rel 0+0 t=24 type.uint32+0
+	rel 45+8 t=1 "".bitcheck32_constleft+0
+	rel 53+8 t=1 "".bitcheck32_constleft+63
+	rel 74+4 t=29 go.info.uint32+0
+	rel 78+4 t=29 +0
+	rel 88+4 t=29 go.info.int+0
+	rel 92+4 t=29 +51
+aux for "".bitcheck32_constright SDWARFLOC size=52
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 55 00 00 00 00 00 00 00 9d 00 00 00 00 00 00 00  U...............
+	0x0020 02 00 91 20 00 00 00 00 00 00 00 00 00 00 00 00  ... ............
+	0x0030 00 00 00 00                                      ....
+	rel 8+8 t=1 "".bitcheck32_constright+0
+aux for "".bitcheck32_constright SDWARFLINES size=71
+	0x0000 04 02 03 99 01 14 06 37 06 77 06 37 06 4f 06 37  .......7.w.7.O.7
+	0x0010 06 4f 06 37 06 4f 06 37 06 4f 06 37 06 63 06 37  .O.7.O.7.O.7.c.7
+	0x0020 06 4c 06 69 06 1b 06 69 06 03 7e 1f 06 69 06 15  .L.i...i..~..i..
+	0x0030 06 69 06 15 06 69 06 15 06 69 06 15 06 69 06 15  .i...i...i...i..
+	0x0040 06 69 02 01 00 01 01                             .i.....
+aux for "".bitcheck32_constright SDWARFINFO size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 33 32 5f 63 6f 6e 73 74 72 69 67 68 74 00 00 00  32_constright...
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c  ................
+	0x0040 02 00 00 00 01 0f 61 00 00 9d 01 00 00 00 00 01  ......a.........
+	0x0050 9c 10 6e 00 01 9d 01 00 00 00 00 00 00 00 00 00  ..n.............
+	rel 0+0 t=24 type.[8]uint32+0
+	rel 0+0 t=24 type.int+0
+	rel 46+8 t=1 "".bitcheck32_constright+0
+	rel 54+8 t=1 "".bitcheck32_constright+157
+	rel 75+4 t=29 go.info.[8]uint32+0
+	rel 87+4 t=29 go.info.int+0
+	rel 91+4 t=29 +0
+aux for "".bitcheck32_var SDWARFLOC size=155
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 30 00 00 00 00 00 00 00  ........0.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 30 00 00 00 00  ...........0....
+	0x0050 00 00 00 02 00 91 04 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0070 00 00 00 00 00 00 00 1b 00 00 00 00 00 00 00 30  ...............0
+	0x0080 00 00 00 00 00 00 00 02 00 91 08 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 "".bitcheck32_var+0
+	rel 59+8 t=1 "".bitcheck32_var+0
+	rel 111+8 t=1 "".bitcheck32_var+0
+aux for "".bitcheck32_var SDWARFLINES size=31
+	0x0000 04 02 03 b9 01 14 06 37 06 6d 06 2d 06 24 06 69  .......7.m.-.$.i
+	0x0010 06 1b 06 69 06 03 7e 15 06 69 02 01 00 01 01     ...i..~..i.....
+aux for "".bitcheck32_var SDWARFINFO size=105
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 33 32 5f 76 61 72 00 00 00 00 00 00 00 00 00 00  32_var..........
+	0x0030 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 10 61  ...............a
+	0x0040 00 00 bd 01 00 00 00 00 00 00 00 00 10 62 00 00  .............b..
+	0x0050 bd 01 00 00 00 00 00 00 00 00 10 6e 00 01 bd 01  ...........n....
+	0x0060 00 00 00 00 00 00 00 00 00                       .........
+	rel 0+0 t=24 type.int+0
+	rel 0+0 t=24 type.uint32+0
+	rel 39+8 t=1 "".bitcheck32_var+0
+	rel 47+8 t=1 "".bitcheck32_var+48
+	rel 68+4 t=29 go.info.uint32+0
+	rel 72+4 t=29 +0
+	rel 82+4 t=29 go.info.uint32+0
+	rel 86+4 t=29 +51
+	rel 96+4 t=29 go.info.int+0
+	rel 100+4 t=29 +103
+aux for "".bitcheck32_mask SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 3f 00 00 00 00 00 00 00  ........?.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 20 00 00 00 00 00 00 00 3f 00 00 00 00  ... .......?....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".bitcheck32_mask+0
+	rel 59+8 t=1 "".bitcheck32_mask+0
+aux for "".bitcheck32_mask SDWARFLINES size=39
+	0x0000 04 02 03 c5 01 14 06 37 06 4f 06 37 06 27 06 37  .......7.O.7.'.7
+	0x0010 06 24 06 69 06 25 06 69 06 03 7e 15 06 69 06 15  .$.i.%.i..~..i..
+	0x0020 06 69 02 01 00 01 01                             .i.....
+aux for "".bitcheck32_mask SDWARFINFO size=92
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 33 32 5f 6d 61 73 6b 00 00 00 00 00 00 00 00 00  32_mask.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 10  ................
+	0x0040 61 00 00 c9 01 00 00 00 00 00 00 00 00 10 6e 00  a.............n.
+	0x0050 01 c9 01 00 00 00 00 00 00 00 00 00              ............
+	rel 0+0 t=24 type.int+0
+	rel 0+0 t=24 type.uint32+0
+	rel 40+8 t=1 "".bitcheck32_mask+0
+	rel 48+8 t=1 "".bitcheck32_mask+63
+	rel 69+4 t=29 go.info.uint32+0
+	rel 73+4 t=29 +0
+	rel 83+4 t=29 go.info.int+0
+	rel 87+4 t=29 +51
+aux for "".biton32 SDWARFLOC size=155
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 25 00 00 00 00 00 00 00  ........%.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 25 00 00 00 00  ...........%....
+	0x0050 00 00 00 02 00 91 04 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 25  ...............%
+	0x0080 00 00 00 00 00 00 00 02 00 91 08 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 "".biton32+0
+	rel 59+8 t=1 "".biton32+0
+	rel 111+8 t=1 "".biton32+0
+aux for "".biton32 SDWARFLINES size=29
+	0x0000 04 02 03 d5 01 14 06 37 06 58 06 23 06 4e 06 23  .......7.X.#.N.#
+	0x0010 06 4e 06 2d 06 25 06 37 02 01 00 01 01           .N.-.%.7.....
+aux for "".biton32 SDWARFINFO size=98
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 6f 6e 33 32 00  guments.biton32.
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 01 9c 02 00 00 00 01 10 61 00 00 d9 01 00 00 00  ........a.......
+	0x0040 00 00 00 00 00 10 62 00 00 d9 01 00 00 00 00 00  ......b.........
+	0x0050 00 00 00 10 6e 00 01 d9 01 00 00 00 00 00 00 00  ....n...........
+	0x0060 00 00                                            ..
+	rel 0+0 t=24 type.uint32+0
+	rel 32+8 t=1 "".biton32+0
+	rel 40+8 t=1 "".biton32+37
+	rel 61+4 t=29 go.info.uint32+0
+	rel 65+4 t=29 +0
+	rel 75+4 t=29 go.info.uint32+0
+	rel 79+4 t=29 +51
+	rel 89+4 t=29 go.info.uint32+0
+	rel 93+4 t=29 +103
+aux for "".bitoff32 SDWARFLOC size=155
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 25 00 00 00 00 00 00 00  ........%.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 25 00 00 00 00  ...........%....
+	0x0050 00 00 00 02 00 91 04 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 25  ...............%
+	0x0080 00 00 00 00 00 00 00 02 00 91 08 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 "".bitoff32+0
+	rel 59+8 t=1 "".bitoff32+0
+	rel 111+8 t=1 "".bitoff32+0
+aux for "".bitoff32 SDWARFLINES size=29
+	0x0000 04 02 03 e5 01 14 06 37 06 58 06 23 06 4e 06 23  .......7.X.#.N.#
+	0x0010 06 4e 06 2d 06 25 06 37 02 01 00 01 01           .N.-.%.7.....
+aux for "".bitoff32 SDWARFINFO size=99
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 6f 66 66 33 32  guments.bitoff32
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 01 9c 02 00 00 00 01 10 61 00 00 e9 01 00 00  .........a......
+	0x0040 00 00 00 00 00 00 10 62 00 00 e9 01 00 00 00 00  .......b........
+	0x0050 00 00 00 00 10 6e 00 01 e9 01 00 00 00 00 00 00  .....n..........
+	0x0060 00 00 00                                         ...
+	rel 0+0 t=24 type.uint32+0
+	rel 33+8 t=1 "".bitoff32+0
+	rel 41+8 t=1 "".bitoff32+37
+	rel 62+4 t=29 go.info.uint32+0
+	rel 66+4 t=29 +0
+	rel 76+4 t=29 go.info.uint32+0
+	rel 80+4 t=29 +51
+	rel 90+4 t=29 go.info.uint32+0
+	rel 94+4 t=29 +103
+aux for "".bitcompl32 SDWARFLOC size=155
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 25 00 00 00 00 00 00 00  ........%.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 25 00 00 00 00  ...........%....
+	0x0050 00 00 00 02 00 91 04 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 25  ...............%
+	0x0080 00 00 00 00 00 00 00 02 00 91 08 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00                 ...........
+	rel 8+8 t=1 "".bitcompl32+0
+	rel 59+8 t=1 "".bitcompl32+0
+	rel 111+8 t=1 "".bitcompl32+0
+aux for "".bitcompl32 SDWARFLINES size=29
+	0x0000 04 02 03 f5 01 14 06 37 06 58 06 23 06 4e 06 23  .......7.X.#.N.#
+	0x0010 06 4e 06 2d 06 25 06 37 02 01 00 01 01           .N.-.%.7.....
+aux for "".bitcompl32 SDWARFINFO size=101
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 6f 6d 70 6c  guments.bitcompl
+	0x0020 33 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00  32..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 10 61 00 00 f9 01  ...........a....
+	0x0040 00 00 00 00 00 00 00 00 10 62 00 00 f9 01 00 00  .........b......
+	0x0050 00 00 00 00 00 00 10 6e 00 01 f9 01 00 00 00 00  .......n........
+	0x0060 00 00 00 00 00                                   .....
+	rel 0+0 t=24 type.uint32+0
+	rel 35+8 t=1 "".bitcompl32+0
+	rel 43+8 t=1 "".bitcompl32+37
+	rel 64+4 t=29 go.info.uint32+0
+	rel 68+4 t=29 +0
+	rel 78+4 t=29 go.info.uint32+0
+	rel 82+4 t=29 +51
+	rel 92+4 t=29 go.info.uint32+0
+	rel 96+4 t=29 +103
+aux for "".bitOpOnMem SDWARFLOC size=57
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 ad 00 00 00 00 00 00 00  ................
+	0x0020 07 00 9c 93 08 91 08 93 08 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00                       .........
+	rel 8+8 t=1 "".bitOpOnMem+0
+aux for "".bitOpOnMem SDWARFLINES size=51
+	0x0000 04 02 0a 03 84 02 14 9d 06 41 06 d9 06 37 06 23  .........A...7.#
+	0x0010 57 06 37 06 23 57 06 37 06 23 43 06 37 06 23 43  W.7.#W.7.#C.7.#C
+	0x0020 06 37 06 23 42 06 72 71 a3 71 71 85 06 55 02 01  .7.#B.rq.qq..U..
+	0x0030 00 01 01                                         ...
+aux for "".bitOpOnMem SDWARFINFO size=73
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 4f 70 4f 6e 4d  guments.bitOpOnM
+	0x0020 65 6d 00 00 00 00 00 00 00 00 00 00 00 00 00 00  em..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 10 61 00 00 8a 02  ...........a....
+	0x0040 00 00 00 00 00 00 00 00 00                       .........
+	rel 0+0 t=24 type.[]uint32+0
+	rel 35+8 t=1 "".bitOpOnMem+0
+	rel 43+8 t=1 "".bitOpOnMem+173
+	rel 64+4 t=29 go.info.[]uint32+0
+	rel 68+4 t=29 +0
+aux for "".bitcheckMostNegative SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0d 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 "".bitcheckMostNegative+0
+aux for "".bitcheckMostNegative SDWARFLINES size=13
+	0x0000 04 02 03 95 02 14 06 41 02 08 00 01 01           .......A.....
+aux for "".bitcheckMostNegative SDWARFINFO size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 63 68 65 63 6b  guments.bitcheck
+	0x0020 4d 6f 73 74 4e 65 67 61 74 69 76 65 00 00 00 00  MostNegative....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0040 00 00 00 01 10 62 00 00 99 02 00 00 00 00 00 00  .....b..........
+	0x0050 00 00 0f 7e 72 31 00 01 99 02 00 00 00 00 00 00  ...~r1..........
+	rel 0+0 t=24 type.bool+0
+	rel 0+0 t=24 type.uint8+0
+	rel 45+8 t=1 "".bitcheckMostNegative+0
+	rel 53+8 t=1 "".bitcheckMostNegative+13
+	rel 74+4 t=29 go.info.uint8+0
+	rel 78+4 t=29 +0
+	rel 90+4 t=29 go.info.bool+0
+aux for "".and_mask_1 SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 10 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 "".and_mask_1+0
+aux for "".and_mask_1 SDWARFLINES size=13
+	0x0000 04 02 03 9c 02 14 06 41 02 0b 00 01 01           .......A.....
+aux for "".and_mask_1 SDWARFINFO size=86
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 61 6e 64 5f 6d 61 73 6b  guments.and_mask
+	0x0020 5f 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00  _1..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 10 61 00 00 a0 02  ...........a....
+	0x0040 00 00 00 00 00 00 00 00 0f 7e 72 31 00 01 a0 02  .........~r1....
+	0x0050 00 00 00 00 00 00                                ......
+	rel 0+0 t=24 type.uint64+0
+	rel 35+8 t=1 "".and_mask_1+0
+	rel 43+8 t=1 "".and_mask_1+16
+	rel 64+4 t=29 go.info.uint64+0
+	rel 68+4 t=29 +0
+	rel 80+4 t=29 go.info.uint64+0
+aux for "".and_mask_2 SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 18 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 "".and_mask_2+0
+aux for "".and_mask_2 SDWARFLINES size=13
+	0x0000 04 02 03 a1 02 14 06 41 02 13 00 01 01           .......A.....
+aux for "".and_mask_2 SDWARFINFO size=86
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 61 6e 64 5f 6d 61 73 6b  guments.and_mask
+	0x0020 5f 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00  _2..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 10 61 00 00 a5 02  ...........a....
+	0x0040 00 00 00 00 00 00 00 00 0f 7e 72 31 00 01 a5 02  .........~r1....
+	0x0050 00 00 00 00 00 00                                ......
+	rel 0+0 t=24 type.uint64+0
+	rel 35+8 t=1 "".and_mask_2+0
+	rel 43+8 t=1 "".and_mask_2+24
+	rel 64+4 t=29 go.info.uint64+0
+	rel 68+4 t=29 +0
+	rel 80+4 t=29 go.info.uint64+0
+aux for "".and_mask_3 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 1b 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 1b 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 04 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".and_mask_3+0
+	rel 59+8 t=1 "".and_mask_3+0
+aux for "".and_mask_3 SDWARFLINES size=22
+	0x0000 04 02 03 a6 02 14 06 37 06 44 36 06 37 06 42 06  .......7.D6.7.B.
+	0x0010 37 02 01 00 01 01                                7.....
+aux for "".and_mask_3 SDWARFINFO size=113
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 61 6e 64 5f 6d 61 73 6b  guments.and_mask
+	0x0020 5f 33 00 00 00 00 00 00 00 00 00 00 00 00 00 00  _3..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 10 61 00 00 aa 02  ...........a....
+	0x0040 00 00 00 00 00 00 00 00 10 62 00 00 aa 02 00 00  .........b......
+	0x0050 00 00 00 00 00 00 0f 7e 72 32 00 01 aa 02 00 00  .......~r2......
+	0x0060 00 00 00 0f 7e 72 33 00 01 aa 02 00 00 00 00 00  ....~r3.........
+	0x0070 00                                               .
+	rel 0+0 t=24 type.uint32+0
+	rel 35+8 t=1 "".and_mask_3+0
+	rel 43+8 t=1 "".and_mask_3+27
+	rel 64+4 t=29 go.info.uint32+0
+	rel 68+4 t=29 +0
+	rel 78+4 t=29 go.info.uint32+0
+	rel 82+4 t=29 +51
+	rel 94+4 t=29 go.info.uint32+0
+	rel 107+4 t=29 go.info.uint32+0
+aux for "".op_bic SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 11 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 11 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 04 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".op_bic+0
+	rel 59+8 t=1 "".op_bic+0
+aux for "".op_bic SDWARFLINES size=13
+	0x0000 04 02 03 b0 02 14 06 37 02 0d 00 01 01           .......7.....
+aux for "".op_bic SDWARFINFO size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6f 70 5f 62 69 63 00 00  guments.op_bic..
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+	0x0030 9c 02 00 00 00 01 10 78 00 00 b4 02 00 00 00 00  .......x........
+	0x0040 00 00 00 00 10 79 00 00 b4 02 00 00 00 00 00 00  .....y..........
+	0x0050 00 00 0f 7e 72 32 00 01 b4 02 00 00 00 00 00 00  ...~r2..........
+	rel 0+0 t=24 type.uint32+0
+	rel 31+8 t=1 "".op_bic+0
+	rel 39+8 t=1 "".op_bic+17
+	rel 60+4 t=29 go.info.uint32+0
+	rel 64+4 t=29 +0
+	rel 74+4 t=29 go.info.uint32+0
+	rel 78+4 t=29 +51
+	rel 90+4 t=29 go.info.uint32+0
+aux for "".op_eon SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 11 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 11 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 04 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".op_eon+0
+	rel 59+8 t=1 "".op_eon+0
+aux for "".op_eon SDWARFLINES size=13
+	0x0000 04 02 03 b5 02 14 06 37 02 0d 00 01 01           .......7.....
+aux for "".op_eon SDWARFINFO size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6f 70 5f 65 6f 6e 00 00  guments.op_eon..
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+	0x0030 9c 02 00 00 00 01 10 78 00 00 b9 02 00 00 00 00  .......x........
+	0x0040 00 00 00 00 10 79 00 00 b9 02 00 00 00 00 00 00  .....y..........
+	0x0050 00 00 0f 7e 72 32 00 01 b9 02 00 00 00 00 00 00  ...~r2..........
+	rel 0+0 t=24 type.uint32+0
+	rel 31+8 t=1 "".op_eon+0
+	rel 39+8 t=1 "".op_eon+17
+	rel 60+4 t=29 go.info.uint32+0
+	rel 64+4 t=29 +0
+	rel 74+4 t=29 go.info.uint32+0
+	rel 78+4 t=29 +51
+	rel 90+4 t=29 go.info.uint32+0
+aux for "".op_orn SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 11 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 11 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 04 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".op_orn+0
+	rel 59+8 t=1 "".op_orn+0
+aux for "".op_orn SDWARFLINES size=13
+	0x0000 04 02 03 ba 02 14 06 37 02 0d 00 01 01           .......7.....
+aux for "".op_orn SDWARFINFO size=96
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6f 70 5f 6f 72 6e 00 00  guments.op_orn..
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01  ................
+	0x0030 9c 02 00 00 00 01 10 78 00 00 be 02 00 00 00 00  .......x........
+	0x0040 00 00 00 00 10 79 00 00 be 02 00 00 00 00 00 00  .....y..........
+	0x0050 00 00 0f 7e 72 32 00 01 be 02 00 00 00 00 00 00  ...~r2..........
+	rel 0+0 t=24 type.uint32+0
+	rel 31+8 t=1 "".op_orn+0
+	rel 39+8 t=1 "".op_orn+17
+	rel 60+4 t=29 go.info.uint32+0
+	rel 64+4 t=29 +0
+	rel 74+4 t=29 go.info.uint32+0
+	rel 78+4 t=29 +51
+	rel 90+4 t=29 go.info.uint32+0
+aux for "".bitSetPowerOf2Test SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 0f 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 "".bitSetPowerOf2Test+0
+aux for "".bitSetPowerOf2Test SDWARFLINES size=13
+	0x0000 04 02 03 c0 02 14 06 41 02 0a 00 01 01           .......A.....
+aux for "".bitSetPowerOf2Test SDWARFINFO size=94
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 53 65 74 50 6f  guments.bitSetPo
+	0x0020 77 65 72 4f 66 32 54 65 73 74 00 00 00 00 00 00  werOf2Test......
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 01 9c 02 00 00  ................
+	0x0040 00 01 10 78 00 00 c4 02 00 00 00 00 00 00 00 00  ...x............
+	0x0050 0f 7e 72 31 00 01 c4 02 00 00 00 00 00 00        .~r1..........
+	rel 0+0 t=24 type.bool+0
+	rel 0+0 t=24 type.int+0
+	rel 43+8 t=1 "".bitSetPowerOf2Test+0
+	rel 51+8 t=1 "".bitSetPowerOf2Test+15
+	rel 72+4 t=29 go.info.int+0
+	rel 76+4 t=29 +0
+	rel 88+4 t=29 go.info.bool+0
+aux for "".bitSetTest SDWARFLOC size=51
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 13 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00                                         ...
+	rel 8+8 t=1 "".bitSetTest+0
+aux for "".bitSetTest SDWARFLINES size=13
+	0x0000 04 02 03 c6 02 14 06 41 02 0e 00 01 01           .......A.....
+aux for "".bitSetTest SDWARFINFO size=86
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 62 69 74 53 65 74 54 65  guments.bitSetTe
+	0x0020 73 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00  st..............
+	0x0030 00 00 00 01 9c 02 00 00 00 01 10 78 00 00 c9 02  ...........x....
+	0x0040 00 00 00 00 00 00 00 00 0f 7e 72 31 00 01 c9 02  .........~r1....
+	0x0050 00 00 00 00 00 00                                ......
+	rel 0+0 t=24 type.bool+0
+	rel 0+0 t=24 type.int+0
+	rel 35+8 t=1 "".bitSetTest+0
+	rel 43+8 t=1 "".bitSetTest+19
+	rel 64+4 t=29 go.info.int+0
+	rel 68+4 t=29 +0
+	rel 80+4 t=29 go.info.bool+0

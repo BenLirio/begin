@@ -1,0 +1,950 @@
+# command-line-arguments
+"".lshMask64x64 STEXT nosplit size=19 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:13)	TEXT	"".lshMask64x64(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:13)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:13)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:17)	MOVQ	"".s+16(SP), CX
+	0x0005 00005 (/usr/local/go/test/codegen/shift.go:17)	MOVQ	"".v+8(SP), AX
+	0x000a 00010 (/usr/local/go/test/codegen/shift.go:17)	SHLQ	CX, AX
+	0x000d 00013 (/usr/local/go/test/codegen/shift.go:17)	MOVQ	AX, "".~r2+24(SP)
+	0x0012 00018 (/usr/local/go/test/codegen/shift.go:17)	RET
+	0x0000 48 8b 4c 24 10 48 8b 44 24 08 48 d3 e0 48 89 44  H.L$.H.D$.H..H.D
+	0x0010 24 18 c3                                         $..
+"".rshMask64Ux64 STEXT nosplit size=19 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:20)	TEXT	"".rshMask64Ux64(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:20)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:20)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:24)	MOVQ	"".s+16(SP), CX
+	0x0005 00005 (/usr/local/go/test/codegen/shift.go:24)	MOVQ	"".v+8(SP), AX
+	0x000a 00010 (/usr/local/go/test/codegen/shift.go:24)	SHRQ	CX, AX
+	0x000d 00013 (/usr/local/go/test/codegen/shift.go:24)	MOVQ	AX, "".~r2+24(SP)
+	0x0012 00018 (/usr/local/go/test/codegen/shift.go:24)	RET
+	0x0000 48 8b 4c 24 10 48 8b 44 24 08 48 d3 e8 48 89 44  H.L$.H.D$.H..H.D
+	0x0010 24 18 c3                                         $..
+"".rshMask64x64 STEXT nosplit size=19 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:27)	TEXT	"".rshMask64x64(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:27)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:27)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:31)	MOVQ	"".s+16(SP), CX
+	0x0005 00005 (/usr/local/go/test/codegen/shift.go:31)	MOVQ	"".v+8(SP), AX
+	0x000a 00010 (/usr/local/go/test/codegen/shift.go:31)	SARQ	CX, AX
+	0x000d 00013 (/usr/local/go/test/codegen/shift.go:31)	MOVQ	AX, "".~r2+24(SP)
+	0x0012 00018 (/usr/local/go/test/codegen/shift.go:31)	RET
+	0x0000 48 8b 4c 24 10 48 8b 44 24 08 48 d3 f8 48 89 44  H.L$.H.D$.H..H.D
+	0x0010 24 18 c3                                         $..
+"".lshMask32x64 STEXT nosplit size=34 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:34)	TEXT	"".lshMask32x64(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:34)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:34)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:38)	MOVQ	"".s+16(SP), CX
+	0x0005 00005 (/usr/local/go/test/codegen/shift.go:38)	MOVQ	CX, AX
+	0x0008 00008 (/usr/local/go/test/codegen/shift.go:38)	ANDQ	$63, CX
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:38)	CMPQ	CX, $32
+	0x0010 00016 (/usr/local/go/test/codegen/shift.go:38)	SBBL	DX, DX
+	0x0012 00018 (/usr/local/go/test/codegen/shift.go:38)	MOVQ	AX, CX
+	0x0015 00021 (/usr/local/go/test/codegen/shift.go:38)	MOVL	"".v+8(SP), BX
+	0x0019 00025 (/usr/local/go/test/codegen/shift.go:38)	SHLL	CX, BX
+	0x001b 00027 (/usr/local/go/test/codegen/shift.go:38)	ANDL	DX, BX
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:38)	MOVL	BX, "".~r2+24(SP)
+	0x0021 00033 (/usr/local/go/test/codegen/shift.go:38)	RET
+	0x0000 48 8b 4c 24 10 48 89 c8 48 83 e1 3f 48 83 f9 20  H.L$.H..H..?H.. 
+	0x0010 19 d2 48 89 c1 8b 5c 24 08 d3 e3 21 d3 89 5c 24  ..H...\$...!..\$
+	0x0020 18 c3                                            ..
+"".rshMask32Ux64 STEXT nosplit size=34 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:41)	TEXT	"".rshMask32Ux64(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:41)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:41)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:45)	MOVQ	"".s+16(SP), CX
+	0x0005 00005 (/usr/local/go/test/codegen/shift.go:45)	MOVQ	CX, AX
+	0x0008 00008 (/usr/local/go/test/codegen/shift.go:45)	ANDQ	$63, CX
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:45)	CMPQ	CX, $32
+	0x0010 00016 (/usr/local/go/test/codegen/shift.go:45)	SBBL	DX, DX
+	0x0012 00018 (/usr/local/go/test/codegen/shift.go:45)	MOVQ	AX, CX
+	0x0015 00021 (/usr/local/go/test/codegen/shift.go:45)	MOVL	"".v+8(SP), BX
+	0x0019 00025 (/usr/local/go/test/codegen/shift.go:45)	SHRL	CX, BX
+	0x001b 00027 (/usr/local/go/test/codegen/shift.go:45)	ANDL	DX, BX
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:45)	MOVL	BX, "".~r2+24(SP)
+	0x0021 00033 (/usr/local/go/test/codegen/shift.go:45)	RET
+	0x0000 48 8b 4c 24 10 48 89 c8 48 83 e1 3f 48 83 f9 20  H.L$.H..H..?H.. 
+	0x0010 19 d2 48 89 c1 8b 5c 24 08 d3 eb 21 d3 89 5c 24  ..H...\$...!..\$
+	0x0020 18 c3                                            ..
+"".rshMask32x64 STEXT nosplit size=33 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:48)	TEXT	"".rshMask32x64(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:48)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:48)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:52)	MOVQ	"".s+16(SP), CX
+	0x0005 00005 (/usr/local/go/test/codegen/shift.go:52)	ANDQ	$63, CX
+	0x0009 00009 (/usr/local/go/test/codegen/shift.go:52)	CMPQ	CX, $32
+	0x000d 00013 (/usr/local/go/test/codegen/shift.go:52)	SBBQ	AX, AX
+	0x0010 00016 (/usr/local/go/test/codegen/shift.go:52)	NOTQ	AX
+	0x0013 00019 (/usr/local/go/test/codegen/shift.go:52)	ORQ	AX, CX
+	0x0016 00022 (/usr/local/go/test/codegen/shift.go:52)	MOVL	"".v+8(SP), AX
+	0x001a 00026 (/usr/local/go/test/codegen/shift.go:52)	SARL	CX, AX
+	0x001c 00028 (/usr/local/go/test/codegen/shift.go:52)	MOVL	AX, "".~r2+24(SP)
+	0x0020 00032 (/usr/local/go/test/codegen/shift.go:52)	RET
+	0x0000 48 8b 4c 24 10 48 83 e1 3f 48 83 f9 20 48 19 c0  H.L$.H..?H.. H..
+	0x0010 48 f7 d0 48 09 c1 8b 44 24 08 d3 f8 89 44 24 18  H..H...D$....D$.
+	0x0020 c3                                               .
+"".lshMask64x32 STEXT nosplit size=18 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:55)	TEXT	"".lshMask64x32(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:55)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:55)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:59)	MOVL	"".s+16(SP), CX
+	0x0004 00004 (/usr/local/go/test/codegen/shift.go:59)	MOVQ	"".v+8(SP), AX
+	0x0009 00009 (/usr/local/go/test/codegen/shift.go:59)	SHLQ	CX, AX
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:59)	MOVQ	AX, "".~r2+24(SP)
+	0x0011 00017 (/usr/local/go/test/codegen/shift.go:59)	RET
+	0x0000 8b 4c 24 10 48 8b 44 24 08 48 d3 e0 48 89 44 24  .L$.H.D$.H..H.D$
+	0x0010 18 c3                                            ..
+"".rshMask64Ux32 STEXT nosplit size=18 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:62)	TEXT	"".rshMask64Ux32(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:62)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:62)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:66)	MOVL	"".s+16(SP), CX
+	0x0004 00004 (/usr/local/go/test/codegen/shift.go:66)	MOVQ	"".v+8(SP), AX
+	0x0009 00009 (/usr/local/go/test/codegen/shift.go:66)	SHRQ	CX, AX
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:66)	MOVQ	AX, "".~r2+24(SP)
+	0x0011 00017 (/usr/local/go/test/codegen/shift.go:66)	RET
+	0x0000 8b 4c 24 10 48 8b 44 24 08 48 d3 e8 48 89 44 24  .L$.H.D$.H..H.D$
+	0x0010 18 c3                                            ..
+"".rshMask64x32 STEXT nosplit size=18 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:69)	TEXT	"".rshMask64x32(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:69)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:69)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:73)	MOVL	"".s+16(SP), CX
+	0x0004 00004 (/usr/local/go/test/codegen/shift.go:73)	MOVQ	"".v+8(SP), AX
+	0x0009 00009 (/usr/local/go/test/codegen/shift.go:73)	SARQ	CX, AX
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:73)	MOVQ	AX, "".~r2+24(SP)
+	0x0011 00017 (/usr/local/go/test/codegen/shift.go:73)	RET
+	0x0000 8b 4c 24 10 48 8b 44 24 08 48 d3 f8 48 89 44 24  .L$.H.D$.H..H.D$
+	0x0010 18 c3                                            ..
+"".lshMask64x32Ext STEXT nosplit size=18 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:76)	TEXT	"".lshMask64x32Ext(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:76)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:76)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:80)	MOVL	"".s+16(SP), CX
+	0x0004 00004 (/usr/local/go/test/codegen/shift.go:80)	MOVQ	"".v+8(SP), AX
+	0x0009 00009 (/usr/local/go/test/codegen/shift.go:80)	SHLQ	CX, AX
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:80)	MOVQ	AX, "".~r2+24(SP)
+	0x0011 00017 (/usr/local/go/test/codegen/shift.go:80)	RET
+	0x0000 8b 4c 24 10 48 8b 44 24 08 48 d3 e0 48 89 44 24  .L$.H.D$.H..H.D$
+	0x0010 18 c3                                            ..
+"".rshMask64Ux32Ext STEXT nosplit size=18 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:83)	TEXT	"".rshMask64Ux32Ext(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:83)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:83)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:87)	MOVL	"".s+16(SP), CX
+	0x0004 00004 (/usr/local/go/test/codegen/shift.go:87)	MOVQ	"".v+8(SP), AX
+	0x0009 00009 (/usr/local/go/test/codegen/shift.go:87)	SHRQ	CX, AX
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:87)	MOVQ	AX, "".~r2+24(SP)
+	0x0011 00017 (/usr/local/go/test/codegen/shift.go:87)	RET
+	0x0000 8b 4c 24 10 48 8b 44 24 08 48 d3 e8 48 89 44 24  .L$.H.D$.H..H.D$
+	0x0010 18 c3                                            ..
+"".rshMask64x32Ext STEXT nosplit size=18 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:90)	TEXT	"".rshMask64x32Ext(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:90)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:90)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:94)	MOVL	"".s+16(SP), CX
+	0x0004 00004 (/usr/local/go/test/codegen/shift.go:94)	MOVQ	"".v+8(SP), AX
+	0x0009 00009 (/usr/local/go/test/codegen/shift.go:94)	SARQ	CX, AX
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:94)	MOVQ	AX, "".~r2+24(SP)
+	0x0011 00017 (/usr/local/go/test/codegen/shift.go:94)	RET
+	0x0000 8b 4c 24 10 48 8b 44 24 08 48 d3 f8 48 89 44 24  .L$.H.D$.H..H.D$
+	0x0010 18 c3                                            ..
+"".lshSigned STEXT nosplit size=80 args=0x18 locals=0x8
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:102)	TEXT	"".lshSigned(SB), NOSPLIT|ABIInternal, $8-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:102)	SUBQ	$8, SP
+	0x0004 00004 (/usr/local/go/test/codegen/shift.go:102)	MOVQ	BP, (SP)
+	0x0008 00008 (/usr/local/go/test/codegen/shift.go:102)	LEAQ	(SP), BP
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:102)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:102)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:104)	MOVBLZX	"".v8+16(SP), AX
+	0x0011 00017 (/usr/local/go/test/codegen/shift.go:104)	TESTB	AL, AL
+	0x0013 00019 (/usr/local/go/test/codegen/shift.go:104)	JLT	74
+	0x0015 00021 (/usr/local/go/test/codegen/shift.go:106)	MOVWLZX	"".v16+18(SP), AX
+	0x001a 00026 (/usr/local/go/test/codegen/shift.go:106)	TESTW	AX, AX
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:106)	JLT	69
+	0x001f 00031 (/usr/local/go/test/codegen/shift.go:108)	MOVL	"".v32+20(SP), AX
+	0x0023 00035 (/usr/local/go/test/codegen/shift.go:108)	TESTL	AX, AX
+	0x0025 00037 (/usr/local/go/test/codegen/shift.go:108)	JLT	64
+	0x0027 00039 (/usr/local/go/test/codegen/shift.go:110)	MOVQ	"".v64+24(SP), AX
+	0x002c 00044 (/usr/local/go/test/codegen/shift.go:110)	TESTQ	AX, AX
+	0x002f 00047 (/usr/local/go/test/codegen/shift.go:110)	JLT	58
+	0x0031 00049 (/usr/local/go/test/codegen/shift.go:111)	MOVQ	(SP), BP
+	0x0035 00053 (/usr/local/go/test/codegen/shift.go:111)	ADDQ	$8, SP
+	0x0039 00057 (/usr/local/go/test/codegen/shift.go:111)	RET
+	0x003a 00058 (/usr/local/go/test/codegen/shift.go:110)	PCDATA	$1, $0
+	0x003a 00058 (/usr/local/go/test/codegen/shift.go:110)	CALL	runtime.panicshift(SB)
+	0x003f 00063 (/usr/local/go/test/codegen/shift.go:110)	NOP
+	0x0040 00064 (/usr/local/go/test/codegen/shift.go:108)	CALL	runtime.panicshift(SB)
+	0x0045 00069 (/usr/local/go/test/codegen/shift.go:106)	CALL	runtime.panicshift(SB)
+	0x004a 00074 (/usr/local/go/test/codegen/shift.go:104)	CALL	runtime.panicshift(SB)
+	0x004f 00079 (/usr/local/go/test/codegen/shift.go:104)	XCHGL	AX, AX
+	0x0000 48 83 ec 08 48 89 2c 24 48 8d 2c 24 0f b6 44 24  H...H.,$H.,$..D$
+	0x0010 10 84 c0 7c 35 0f b7 44 24 12 66 85 c0 7c 26 8b  ...|5..D$.f..|&.
+	0x0020 44 24 14 85 c0 7c 19 48 8b 44 24 18 48 85 c0 7c  D$...|.H.D$.H..|
+	0x0030 09 48 8b 2c 24 48 83 c4 08 c3 e8 00 00 00 00 90  .H.,$H..........
+	0x0040 e8 00 00 00 00 e8 00 00 00 00 e8 00 00 00 00 90  ................
+	rel 59+4 t=8 runtime.panicshift+0
+	rel 65+4 t=8 runtime.panicshift+0
+	rel 70+4 t=8 runtime.panicshift+0
+	rel 75+4 t=8 runtime.panicshift+0
+"".lshSignedMasked STEXT nosplit size=1 args=0x18 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:114)	TEXT	"".lshSignedMasked(SB), NOSPLIT|ABIInternal, $0-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:114)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:114)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:123)	RET
+	0x0000 c3                                               .
+"".rshGuarded64 STEXT size=103 args=0x18 locals=0x18
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:129)	TEXT	"".rshGuarded64(SB), ABIInternal, $24-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:129)	MOVQ	(TLS), CX
+	0x0009 00009 (/usr/local/go/test/codegen/shift.go:129)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/usr/local/go/test/codegen/shift.go:129)	PCDATA	$0, $-2
+	0x000d 00013 (/usr/local/go/test/codegen/shift.go:129)	JLS	96
+	0x000f 00015 (/usr/local/go/test/codegen/shift.go:129)	PCDATA	$0, $-1
+	0x000f 00015 (/usr/local/go/test/codegen/shift.go:129)	SUBQ	$24, SP
+	0x0013 00019 (/usr/local/go/test/codegen/shift.go:129)	MOVQ	BP, 16(SP)
+	0x0018 00024 (/usr/local/go/test/codegen/shift.go:129)	LEAQ	16(SP), BP
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:129)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:129)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:130)	MOVQ	"".s+40(SP), CX
+	0x0022 00034 (/usr/local/go/test/codegen/shift.go:130)	CMPQ	CX, $64
+	0x0026 00038 (/usr/local/go/test/codegen/shift.go:130)	JCC	63
+	0x0028 00040 (/usr/local/go/test/codegen/shift.go:132)	MOVQ	"".v+32(SP), AX
+	0x002d 00045 (/usr/local/go/test/codegen/shift.go:132)	SARQ	CX, AX
+	0x0030 00048 (/usr/local/go/test/codegen/shift.go:132)	MOVQ	AX, "".~r2+48(SP)
+	0x0035 00053 (/usr/local/go/test/codegen/shift.go:132)	MOVQ	16(SP), BP
+	0x003a 00058 (/usr/local/go/test/codegen/shift.go:132)	ADDQ	$24, SP
+	0x003e 00062 (/usr/local/go/test/codegen/shift.go:132)	RET
+	0x003f 00063 (/usr/local/go/test/codegen/shift.go:134)	LEAQ	type.string(SB), AX
+	0x0046 00070 (/usr/local/go/test/codegen/shift.go:134)	MOVQ	AX, (SP)
+	0x004a 00074 (/usr/local/go/test/codegen/shift.go:134)	LEAQ	""..stmp_0(SB), AX
+	0x0051 00081 (/usr/local/go/test/codegen/shift.go:134)	MOVQ	AX, 8(SP)
+	0x0056 00086 (/usr/local/go/test/codegen/shift.go:134)	PCDATA	$1, $0
+	0x0056 00086 (/usr/local/go/test/codegen/shift.go:134)	CALL	runtime.gopanic(SB)
+	0x005b 00091 (/usr/local/go/test/codegen/shift.go:134)	XCHGL	AX, AX
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:134)	NOP
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:129)	PCDATA	$1, $-1
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:129)	PCDATA	$0, $-2
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:129)	NOP
+	0x0060 00096 (/usr/local/go/test/codegen/shift.go:129)	CALL	runtime.morestack_noctxt(SB)
+	0x0065 00101 (/usr/local/go/test/codegen/shift.go:129)	PCDATA	$0, $-1
+	0x0065 00101 (/usr/local/go/test/codegen/shift.go:129)	JMP	0
+	0x0000 64 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 51 48  dH..%....H;a.vQH
+	0x0010 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 8b 4c  ...H.l$.H.l$.H.L
+	0x0020 24 28 48 83 f9 40 73 17 48 8b 44 24 20 48 d3 f8  $(H..@s.H.D$ H..
+	0x0030 48 89 44 24 30 48 8b 6c 24 10 48 83 c4 18 c3 48  H.D$0H.l$.H....H
+	0x0040 8d 05 00 00 00 00 48 89 04 24 48 8d 05 00 00 00  ......H..$H.....
+	0x0050 00 48 89 44 24 08 e8 00 00 00 00 90 0f 1f 40 00  .H.D$.........@.
+	0x0060 e8 00 00 00 00 eb 99                             .......
+	rel 5+4 t=17 TLS+0
+	rel 66+4 t=16 type.string+0
+	rel 77+4 t=16 ""..stmp_0+0
+	rel 87+4 t=8 runtime.gopanic+0
+	rel 97+4 t=8 runtime.morestack_noctxt+0
+"".rshGuarded64U STEXT size=103 args=0x18 locals=0x18
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:137)	TEXT	"".rshGuarded64U(SB), ABIInternal, $24-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:137)	MOVQ	(TLS), CX
+	0x0009 00009 (/usr/local/go/test/codegen/shift.go:137)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/usr/local/go/test/codegen/shift.go:137)	PCDATA	$0, $-2
+	0x000d 00013 (/usr/local/go/test/codegen/shift.go:137)	JLS	96
+	0x000f 00015 (/usr/local/go/test/codegen/shift.go:137)	PCDATA	$0, $-1
+	0x000f 00015 (/usr/local/go/test/codegen/shift.go:137)	SUBQ	$24, SP
+	0x0013 00019 (/usr/local/go/test/codegen/shift.go:137)	MOVQ	BP, 16(SP)
+	0x0018 00024 (/usr/local/go/test/codegen/shift.go:137)	LEAQ	16(SP), BP
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:137)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:137)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:138)	MOVQ	"".s+40(SP), CX
+	0x0022 00034 (/usr/local/go/test/codegen/shift.go:138)	CMPQ	CX, $64
+	0x0026 00038 (/usr/local/go/test/codegen/shift.go:138)	JCC	63
+	0x0028 00040 (/usr/local/go/test/codegen/shift.go:140)	MOVQ	"".v+32(SP), AX
+	0x002d 00045 (/usr/local/go/test/codegen/shift.go:140)	SHRQ	CX, AX
+	0x0030 00048 (/usr/local/go/test/codegen/shift.go:140)	MOVQ	AX, "".~r2+48(SP)
+	0x0035 00053 (/usr/local/go/test/codegen/shift.go:140)	MOVQ	16(SP), BP
+	0x003a 00058 (/usr/local/go/test/codegen/shift.go:140)	ADDQ	$24, SP
+	0x003e 00062 (/usr/local/go/test/codegen/shift.go:140)	RET
+	0x003f 00063 (/usr/local/go/test/codegen/shift.go:142)	LEAQ	type.string(SB), AX
+	0x0046 00070 (/usr/local/go/test/codegen/shift.go:142)	MOVQ	AX, (SP)
+	0x004a 00074 (/usr/local/go/test/codegen/shift.go:142)	LEAQ	""..stmp_1(SB), AX
+	0x0051 00081 (/usr/local/go/test/codegen/shift.go:142)	MOVQ	AX, 8(SP)
+	0x0056 00086 (/usr/local/go/test/codegen/shift.go:142)	PCDATA	$1, $0
+	0x0056 00086 (/usr/local/go/test/codegen/shift.go:142)	CALL	runtime.gopanic(SB)
+	0x005b 00091 (/usr/local/go/test/codegen/shift.go:142)	XCHGL	AX, AX
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:142)	NOP
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:137)	PCDATA	$1, $-1
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:137)	PCDATA	$0, $-2
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:137)	NOP
+	0x0060 00096 (/usr/local/go/test/codegen/shift.go:137)	CALL	runtime.morestack_noctxt(SB)
+	0x0065 00101 (/usr/local/go/test/codegen/shift.go:137)	PCDATA	$0, $-1
+	0x0065 00101 (/usr/local/go/test/codegen/shift.go:137)	JMP	0
+	0x0000 64 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 51 48  dH..%....H;a.vQH
+	0x0010 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 8b 4c  ...H.l$.H.l$.H.L
+	0x0020 24 28 48 83 f9 40 73 17 48 8b 44 24 20 48 d3 e8  $(H..@s.H.D$ H..
+	0x0030 48 89 44 24 30 48 8b 6c 24 10 48 83 c4 18 c3 48  H.D$0H.l$.H....H
+	0x0040 8d 05 00 00 00 00 48 89 04 24 48 8d 05 00 00 00  ......H..$H.....
+	0x0050 00 48 89 44 24 08 e8 00 00 00 00 90 0f 1f 40 00  .H.D$.........@.
+	0x0060 e8 00 00 00 00 eb 99                             .......
+	rel 5+4 t=17 TLS+0
+	rel 66+4 t=16 type.string+0
+	rel 77+4 t=16 ""..stmp_1+0
+	rel 87+4 t=8 runtime.gopanic+0
+	rel 97+4 t=8 runtime.morestack_noctxt+0
+"".lshGuarded64 STEXT size=103 args=0x18 locals=0x18
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:145)	TEXT	"".lshGuarded64(SB), ABIInternal, $24-24
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:145)	MOVQ	(TLS), CX
+	0x0009 00009 (/usr/local/go/test/codegen/shift.go:145)	CMPQ	SP, 16(CX)
+	0x000d 00013 (/usr/local/go/test/codegen/shift.go:145)	PCDATA	$0, $-2
+	0x000d 00013 (/usr/local/go/test/codegen/shift.go:145)	JLS	96
+	0x000f 00015 (/usr/local/go/test/codegen/shift.go:145)	PCDATA	$0, $-1
+	0x000f 00015 (/usr/local/go/test/codegen/shift.go:145)	SUBQ	$24, SP
+	0x0013 00019 (/usr/local/go/test/codegen/shift.go:145)	MOVQ	BP, 16(SP)
+	0x0018 00024 (/usr/local/go/test/codegen/shift.go:145)	LEAQ	16(SP), BP
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:145)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:145)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:146)	MOVQ	"".s+40(SP), CX
+	0x0022 00034 (/usr/local/go/test/codegen/shift.go:146)	CMPQ	CX, $64
+	0x0026 00038 (/usr/local/go/test/codegen/shift.go:146)	JCC	63
+	0x0028 00040 (/usr/local/go/test/codegen/shift.go:148)	MOVQ	"".v+32(SP), AX
+	0x002d 00045 (/usr/local/go/test/codegen/shift.go:148)	SHLQ	CX, AX
+	0x0030 00048 (/usr/local/go/test/codegen/shift.go:148)	MOVQ	AX, "".~r2+48(SP)
+	0x0035 00053 (/usr/local/go/test/codegen/shift.go:148)	MOVQ	16(SP), BP
+	0x003a 00058 (/usr/local/go/test/codegen/shift.go:148)	ADDQ	$24, SP
+	0x003e 00062 (/usr/local/go/test/codegen/shift.go:148)	RET
+	0x003f 00063 (/usr/local/go/test/codegen/shift.go:150)	LEAQ	type.string(SB), AX
+	0x0046 00070 (/usr/local/go/test/codegen/shift.go:150)	MOVQ	AX, (SP)
+	0x004a 00074 (/usr/local/go/test/codegen/shift.go:150)	LEAQ	""..stmp_2(SB), AX
+	0x0051 00081 (/usr/local/go/test/codegen/shift.go:150)	MOVQ	AX, 8(SP)
+	0x0056 00086 (/usr/local/go/test/codegen/shift.go:150)	PCDATA	$1, $0
+	0x0056 00086 (/usr/local/go/test/codegen/shift.go:150)	CALL	runtime.gopanic(SB)
+	0x005b 00091 (/usr/local/go/test/codegen/shift.go:150)	XCHGL	AX, AX
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:150)	NOP
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:145)	PCDATA	$1, $-1
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:145)	PCDATA	$0, $-2
+	0x005c 00092 (/usr/local/go/test/codegen/shift.go:145)	NOP
+	0x0060 00096 (/usr/local/go/test/codegen/shift.go:145)	CALL	runtime.morestack_noctxt(SB)
+	0x0065 00101 (/usr/local/go/test/codegen/shift.go:145)	PCDATA	$0, $-1
+	0x0065 00101 (/usr/local/go/test/codegen/shift.go:145)	JMP	0
+	0x0000 64 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 51 48  dH..%....H;a.vQH
+	0x0010 83 ec 18 48 89 6c 24 10 48 8d 6c 24 10 48 8b 4c  ...H.l$.H.l$.H.L
+	0x0020 24 28 48 83 f9 40 73 17 48 8b 44 24 20 48 d3 e0  $(H..@s.H.D$ H..
+	0x0030 48 89 44 24 30 48 8b 6c 24 10 48 83 c4 18 c3 48  H.D$0H.l$.H....H
+	0x0040 8d 05 00 00 00 00 48 89 04 24 48 8d 05 00 00 00  ......H..$H.....
+	0x0050 00 48 89 44 24 08 e8 00 00 00 00 90 0f 1f 40 00  .H.D$.........@.
+	0x0060 e8 00 00 00 00 eb 99                             .......
+	rel 5+4 t=17 TLS+0
+	rel 66+4 t=16 type.string+0
+	rel 77+4 t=16 ""..stmp_2+0
+	rel 87+4 t=8 runtime.gopanic+0
+	rel 97+4 t=8 runtime.morestack_noctxt+0
+"".checkWidenAfterShift STEXT nosplit size=83 args=0x20 locals=0x0
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:153)	TEXT	"".checkWidenAfterShift(SB), NOSPLIT|ABIInternal, $0-32
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:153)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:153)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0000 00000 (/usr/local/go/test/codegen/shift.go:156)	MOVQ	"".v+8(SP), AX
+	0x0005 00005 (/usr/local/go/test/codegen/shift.go:156)	MOVQ	AX, CX
+	0x0008 00008 (/usr/local/go/test/codegen/shift.go:156)	SARQ	$32, AX
+	0x000c 00012 (/usr/local/go/test/codegen/shift.go:158)	MOVQ	CX, DX
+	0x000f 00015 (/usr/local/go/test/codegen/shift.go:158)	SARQ	$31, CX
+	0x0013 00019 (/usr/local/go/test/codegen/shift.go:158)	ADDL	CX, AX
+	0x0015 00021 (/usr/local/go/test/codegen/shift.go:164)	MOVL	AX, CX
+	0x0017 00023 (/usr/local/go/test/codegen/shift.go:164)	SARL	$16, AX
+	0x001a 00026 (/usr/local/go/test/codegen/shift.go:166)	MOVQ	DX, BX
+	0x001d 00029 (/usr/local/go/test/codegen/shift.go:166)	SARQ	$56, DX
+	0x0021 00033 (/usr/local/go/test/codegen/shift.go:168)	MOVQ	BX, SI
+	0x0024 00036 (/usr/local/go/test/codegen/shift.go:168)	SARQ	$28, BX
+	0x0028 00040 (/usr/local/go/test/codegen/shift.go:168)	ADDL	BX, DX
+	0x002a 00042 (/usr/local/go/test/codegen/shift.go:170)	SARL	$24, CX
+	0x002d 00045 (/usr/local/go/test/codegen/shift.go:170)	ADDL	DX, CX
+	0x002f 00047 (/usr/local/go/test/codegen/shift.go:172)	ADDL	AX, CX
+	0x0031 00049 (/usr/local/go/test/codegen/shift.go:173)	MOVBQSX	CL, CX
+	0x0035 00053 (/usr/local/go/test/codegen/shift.go:173)	MOVQ	CX, "".~r2+24(SP)
+	0x003a 00058 (/usr/local/go/test/codegen/shift.go:160)	MOVQ	SI, CX
+	0x003d 00061 (/usr/local/go/test/codegen/shift.go:160)	SARQ	$48, SI
+	0x0041 00065 (/usr/local/go/test/codegen/shift.go:162)	SARQ	$30, CX
+	0x0045 00069 (/usr/local/go/test/codegen/shift.go:162)	ADDL	SI, CX
+	0x0047 00071 (/usr/local/go/test/codegen/shift.go:164)	ADDL	CX, AX
+	0x0049 00073 (/usr/local/go/test/codegen/shift.go:173)	MOVWQSX	AX, AX
+	0x004d 00077 (/usr/local/go/test/codegen/shift.go:173)	MOVQ	AX, "".~r3+32(SP)
+	0x0052 00082 (/usr/local/go/test/codegen/shift.go:173)	RET
+	0x0000 48 8b 44 24 08 48 89 c1 48 c1 f8 20 48 89 ca 48  H.D$.H..H.. H..H
+	0x0010 c1 f9 1f 01 c8 89 c1 c1 f8 10 48 89 d3 48 c1 fa  ..........H..H..
+	0x0020 38 48 89 de 48 c1 fb 1c 01 da c1 f9 18 01 d1 01  8H..H...........
+	0x0030 c1 48 0f be c9 48 89 4c 24 18 48 89 f1 48 c1 fe  .H...H.L$.H..H..
+	0x0040 30 48 c1 f9 1e 01 f1 01 c8 48 0f bf c0 48 89 44  0H.......H...H.D
+	0x0050 24 20 c3                                         $ .
+go.cuinfo.packagename.command-line-arguments SDWARFINFO dupok size=0
+	0x0000 63 6f 64 65 67 65 6e                             codegen
+go.string."shift too large" SRODATA dupok size=15
+	0x0000 73 68 69 66 74 20 74 6f 6f 20 6c 61 72 67 65     shift too large
+""..stmp_0 SRODATA size=16
+	0x0000 00 00 00 00 00 00 00 00 0f 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 go.string."shift too large"+0
+""..stmp_1 SRODATA size=16
+	0x0000 00 00 00 00 00 00 00 00 0f 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 go.string."shift too large"+0
+""..stmp_2 SRODATA size=16
+	0x0000 00 00 00 00 00 00 00 00 0f 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 go.string."shift too large"+0
+gclocals·33cdeccccebe80329f1fdbee7f5874cb SRODATA dupok size=8
+	0x0000 01 00 00 00 00 00 00 00                          ........
+aux for "".lshMask64x64 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 13 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 13 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".lshMask64x64+0
+	rel 59+8 t=1 "".lshMask64x64+0
+aux for "".lshMask64x64 SDWARFLINES size=12
+	0x0000 04 02 03 0b 14 06 41 02 0e 00 01 01              ......A.....
+aux for "".lshMask64x64 SDWARFINFO size=99
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6c 73 68 4d 61 73 6b 36  guments.lshMask6
+	0x0020 34 78 36 34 00 00 00 00 00 00 00 00 00 00 00 00  4x64............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00 00  .............v..
+	0x0040 0d 00 00 00 00 00 00 00 00 10 73 00 00 0d 00 00  ..........s.....
+	0x0050 00 00 00 00 00 00 0f 7e 72 32 00 01 0d 00 00 00  .......~r2......
+	0x0060 00 00 00                                         ...
+	rel 0+0 t=24 type.int64+0
+	rel 0+0 t=24 type.uint64+0
+	rel 37+8 t=1 "".lshMask64x64+0
+	rel 45+8 t=1 "".lshMask64x64+19
+	rel 65+4 t=29 go.info.int64+0
+	rel 69+4 t=29 +0
+	rel 78+4 t=29 go.info.uint64+0
+	rel 82+4 t=29 +51
+	rel 93+4 t=29 go.info.int64+0
+aux for "".rshMask64Ux64 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 13 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 13 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".rshMask64Ux64+0
+	rel 59+8 t=1 "".rshMask64Ux64+0
+aux for "".rshMask64Ux64 SDWARFLINES size=12
+	0x0000 04 02 03 12 14 06 41 02 0e 00 01 01              ......A.....
+aux for "".rshMask64Ux64 SDWARFINFO size=100
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 73 68 4d 61 73 6b 36  guments.rshMask6
+	0x0020 34 55 78 36 34 00 00 00 00 00 00 00 00 00 00 00  4Ux64...........
+	0x0030 00 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00  ..............v.
+	0x0040 00 14 00 00 00 00 00 00 00 00 10 73 00 00 14 00  ...........s....
+	0x0050 00 00 00 00 00 00 00 0f 7e 72 32 00 01 14 00 00  ........~r2.....
+	0x0060 00 00 00 00                                      ....
+	rel 0+0 t=24 type.uint64+0
+	rel 38+8 t=1 "".rshMask64Ux64+0
+	rel 46+8 t=1 "".rshMask64Ux64+19
+	rel 66+4 t=29 go.info.uint64+0
+	rel 70+4 t=29 +0
+	rel 79+4 t=29 go.info.uint64+0
+	rel 83+4 t=29 +51
+	rel 94+4 t=29 go.info.uint64+0
+aux for "".rshMask64x64 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 13 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 13 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".rshMask64x64+0
+	rel 59+8 t=1 "".rshMask64x64+0
+aux for "".rshMask64x64 SDWARFLINES size=12
+	0x0000 04 02 03 19 14 06 41 02 0e 00 01 01              ......A.....
+aux for "".rshMask64x64 SDWARFINFO size=99
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 73 68 4d 61 73 6b 36  guments.rshMask6
+	0x0020 34 78 36 34 00 00 00 00 00 00 00 00 00 00 00 00  4x64............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00 00  .............v..
+	0x0040 1b 00 00 00 00 00 00 00 00 10 73 00 00 1b 00 00  ..........s.....
+	0x0050 00 00 00 00 00 00 0f 7e 72 32 00 01 1b 00 00 00  .......~r2......
+	0x0060 00 00 00                                         ...
+	rel 0+0 t=24 type.int64+0
+	rel 0+0 t=24 type.uint64+0
+	rel 37+8 t=1 "".rshMask64x64+0
+	rel 45+8 t=1 "".rshMask64x64+19
+	rel 65+4 t=29 go.info.int64+0
+	rel 69+4 t=29 +0
+	rel 78+4 t=29 go.info.uint64+0
+	rel 82+4 t=29 +51
+	rel 93+4 t=29 go.info.int64+0
+aux for "".lshMask32x64 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 22 00 00 00 00 00 00 00  ........".......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 22 00 00 00 00  ..........."....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".lshMask32x64+0
+	rel 59+8 t=1 "".lshMask32x64+0
+aux for "".lshMask32x64 SDWARFLINES size=12
+	0x0000 04 02 03 20 14 06 41 02 1d 00 01 01              ... ..A.....
+aux for "".lshMask32x64 SDWARFINFO size=99
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6c 73 68 4d 61 73 6b 33  guments.lshMask3
+	0x0020 32 78 36 34 00 00 00 00 00 00 00 00 00 00 00 00  2x64............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00 00  .............v..
+	0x0040 22 00 00 00 00 00 00 00 00 10 73 00 00 22 00 00  ".........s.."..
+	0x0050 00 00 00 00 00 00 0f 7e 72 32 00 01 22 00 00 00  .......~r2.."...
+	0x0060 00 00 00                                         ...
+	rel 0+0 t=24 type.int32+0
+	rel 0+0 t=24 type.uint64+0
+	rel 37+8 t=1 "".lshMask32x64+0
+	rel 45+8 t=1 "".lshMask32x64+34
+	rel 65+4 t=29 go.info.int32+0
+	rel 69+4 t=29 +0
+	rel 78+4 t=29 go.info.uint64+0
+	rel 82+4 t=29 +51
+	rel 93+4 t=29 go.info.int32+0
+aux for "".rshMask32Ux64 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 22 00 00 00 00 00 00 00  ........".......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 22 00 00 00 00  ..........."....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".rshMask32Ux64+0
+	rel 59+8 t=1 "".rshMask32Ux64+0
+aux for "".rshMask32Ux64 SDWARFLINES size=12
+	0x0000 04 02 03 27 14 06 41 02 1d 00 01 01              ...'..A.....
+aux for "".rshMask32Ux64 SDWARFINFO size=100
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 73 68 4d 61 73 6b 33  guments.rshMask3
+	0x0020 32 55 78 36 34 00 00 00 00 00 00 00 00 00 00 00  2Ux64...........
+	0x0030 00 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00  ..............v.
+	0x0040 00 29 00 00 00 00 00 00 00 00 10 73 00 00 29 00  .).........s..).
+	0x0050 00 00 00 00 00 00 00 0f 7e 72 32 00 01 29 00 00  ........~r2..)..
+	0x0060 00 00 00 00                                      ....
+	rel 0+0 t=24 type.uint32+0
+	rel 0+0 t=24 type.uint64+0
+	rel 38+8 t=1 "".rshMask32Ux64+0
+	rel 46+8 t=1 "".rshMask32Ux64+34
+	rel 66+4 t=29 go.info.uint32+0
+	rel 70+4 t=29 +0
+	rel 79+4 t=29 go.info.uint64+0
+	rel 83+4 t=29 +51
+	rel 94+4 t=29 go.info.uint32+0
+aux for "".rshMask32x64 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 21 00 00 00 00 00 00 00  ........!.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 21 00 00 00 00  ...........!....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".rshMask32x64+0
+	rel 59+8 t=1 "".rshMask32x64+0
+aux for "".rshMask32x64 SDWARFLINES size=12
+	0x0000 04 02 03 2e 14 06 41 02 1c 00 01 01              ......A.....
+aux for "".rshMask32x64 SDWARFINFO size=99
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 73 68 4d 61 73 6b 33  guments.rshMask3
+	0x0020 32 78 36 34 00 00 00 00 00 00 00 00 00 00 00 00  2x64............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00 00  .............v..
+	0x0040 30 00 00 00 00 00 00 00 00 10 73 00 00 30 00 00  0.........s..0..
+	0x0050 00 00 00 00 00 00 0f 7e 72 32 00 01 30 00 00 00  .......~r2..0...
+	0x0060 00 00 00                                         ...
+	rel 0+0 t=24 type.int32+0
+	rel 0+0 t=24 type.uint64+0
+	rel 37+8 t=1 "".rshMask32x64+0
+	rel 45+8 t=1 "".rshMask32x64+33
+	rel 65+4 t=29 go.info.int32+0
+	rel 69+4 t=29 +0
+	rel 78+4 t=29 go.info.uint64+0
+	rel 82+4 t=29 +51
+	rel 93+4 t=29 go.info.int32+0
+aux for "".lshMask64x32 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".lshMask64x32+0
+	rel 59+8 t=1 "".lshMask64x32+0
+aux for "".lshMask64x32 SDWARFLINES size=12
+	0x0000 04 02 03 35 14 06 37 02 0e 00 01 01              ...5..7.....
+aux for "".lshMask64x32 SDWARFINFO size=99
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6c 73 68 4d 61 73 6b 36  guments.lshMask6
+	0x0020 34 78 33 32 00 00 00 00 00 00 00 00 00 00 00 00  4x32............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00 00  .............v..
+	0x0040 37 00 00 00 00 00 00 00 00 10 73 00 00 37 00 00  7.........s..7..
+	0x0050 00 00 00 00 00 00 0f 7e 72 32 00 01 37 00 00 00  .......~r2..7...
+	0x0060 00 00 00                                         ...
+	rel 0+0 t=24 type.int64+0
+	rel 0+0 t=24 type.uint32+0
+	rel 37+8 t=1 "".lshMask64x32+0
+	rel 45+8 t=1 "".lshMask64x32+18
+	rel 65+4 t=29 go.info.int64+0
+	rel 69+4 t=29 +0
+	rel 78+4 t=29 go.info.uint32+0
+	rel 82+4 t=29 +51
+	rel 93+4 t=29 go.info.int64+0
+aux for "".rshMask64Ux32 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".rshMask64Ux32+0
+	rel 59+8 t=1 "".rshMask64Ux32+0
+aux for "".rshMask64Ux32 SDWARFLINES size=12
+	0x0000 04 02 03 3c 14 06 37 02 0e 00 01 01              ...<..7.....
+aux for "".rshMask64Ux32 SDWARFINFO size=100
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 73 68 4d 61 73 6b 36  guments.rshMask6
+	0x0020 34 55 78 33 32 00 00 00 00 00 00 00 00 00 00 00  4Ux32...........
+	0x0030 00 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00  ..............v.
+	0x0040 00 3e 00 00 00 00 00 00 00 00 10 73 00 00 3e 00  .>.........s..>.
+	0x0050 00 00 00 00 00 00 00 0f 7e 72 32 00 01 3e 00 00  ........~r2..>..
+	0x0060 00 00 00 00                                      ....
+	rel 0+0 t=24 type.uint32+0
+	rel 0+0 t=24 type.uint64+0
+	rel 38+8 t=1 "".rshMask64Ux32+0
+	rel 46+8 t=1 "".rshMask64Ux32+18
+	rel 66+4 t=29 go.info.uint64+0
+	rel 70+4 t=29 +0
+	rel 79+4 t=29 go.info.uint32+0
+	rel 83+4 t=29 +51
+	rel 94+4 t=29 go.info.uint64+0
+aux for "".rshMask64x32 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".rshMask64x32+0
+	rel 59+8 t=1 "".rshMask64x32+0
+aux for "".rshMask64x32 SDWARFLINES size=13
+	0x0000 04 02 03 c3 00 14 06 37 02 0e 00 01 01           .......7.....
+aux for "".rshMask64x32 SDWARFINFO size=99
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 73 68 4d 61 73 6b 36  guments.rshMask6
+	0x0020 34 78 33 32 00 00 00 00 00 00 00 00 00 00 00 00  4x32............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00 00  .............v..
+	0x0040 45 00 00 00 00 00 00 00 00 10 73 00 00 45 00 00  E.........s..E..
+	0x0050 00 00 00 00 00 00 0f 7e 72 32 00 01 45 00 00 00  .......~r2..E...
+	0x0060 00 00 00                                         ...
+	rel 0+0 t=24 type.int64+0
+	rel 0+0 t=24 type.uint32+0
+	rel 37+8 t=1 "".rshMask64x32+0
+	rel 45+8 t=1 "".rshMask64x32+18
+	rel 65+4 t=29 go.info.int64+0
+	rel 69+4 t=29 +0
+	rel 78+4 t=29 go.info.uint32+0
+	rel 82+4 t=29 +51
+	rel 93+4 t=29 go.info.int64+0
+aux for "".lshMask64x32Ext SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".lshMask64x32Ext+0
+	rel 59+8 t=1 "".lshMask64x32Ext+0
+aux for "".lshMask64x32Ext SDWARFLINES size=13
+	0x0000 04 02 03 ca 00 14 06 37 02 0e 00 01 01           .......7.....
+aux for "".lshMask64x32Ext SDWARFINFO size=102
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6c 73 68 4d 61 73 6b 36  guments.lshMask6
+	0x0020 34 78 33 32 45 78 74 00 00 00 00 00 00 00 00 00  4x32Ext.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 10  ................
+	0x0040 76 00 00 4c 00 00 00 00 00 00 00 00 10 73 00 00  v..L.........s..
+	0x0050 4c 00 00 00 00 00 00 00 00 0f 7e 72 32 00 01 4c  L.........~r2..L
+	0x0060 00 00 00 00 00 00                                ......
+	rel 0+0 t=24 type.int32+0
+	rel 0+0 t=24 type.int64+0
+	rel 40+8 t=1 "".lshMask64x32Ext+0
+	rel 48+8 t=1 "".lshMask64x32Ext+18
+	rel 68+4 t=29 go.info.int64+0
+	rel 72+4 t=29 +0
+	rel 81+4 t=29 go.info.int32+0
+	rel 85+4 t=29 +51
+	rel 96+4 t=29 go.info.int64+0
+aux for "".rshMask64Ux32Ext SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".rshMask64Ux32Ext+0
+	rel 59+8 t=1 "".rshMask64Ux32Ext+0
+aux for "".rshMask64Ux32Ext SDWARFLINES size=13
+	0x0000 04 02 03 d1 00 14 06 37 02 0e 00 01 01           .......7.....
+aux for "".rshMask64Ux32Ext SDWARFINFO size=103
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 73 68 4d 61 73 6b 36  guments.rshMask6
+	0x0020 34 55 78 33 32 45 78 74 00 00 00 00 00 00 00 00  4Ux32Ext........
+	0x0030 00 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01  ................
+	0x0040 10 76 00 00 53 00 00 00 00 00 00 00 00 10 73 00  .v..S.........s.
+	0x0050 00 53 00 00 00 00 00 00 00 00 0f 7e 72 32 00 01  .S.........~r2..
+	0x0060 53 00 00 00 00 00 00                             S......
+	rel 0+0 t=24 type.int32+0
+	rel 0+0 t=24 type.uint64+0
+	rel 41+8 t=1 "".rshMask64Ux32Ext+0
+	rel 49+8 t=1 "".rshMask64Ux32Ext+18
+	rel 69+4 t=29 go.info.uint64+0
+	rel 73+4 t=29 +0
+	rel 82+4 t=29 go.info.int32+0
+	rel 86+4 t=29 +51
+	rel 97+4 t=29 go.info.uint64+0
+aux for "".rshMask64x32Ext SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 12 00 00 00 00 00 00 00  ................
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 12 00 00 00 00  ................
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".rshMask64x32Ext+0
+	rel 59+8 t=1 "".rshMask64x32Ext+0
+aux for "".rshMask64x32Ext SDWARFLINES size=13
+	0x0000 04 02 03 d8 00 14 06 37 02 0e 00 01 01           .......7.....
+aux for "".rshMask64x32Ext SDWARFINFO size=102
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 73 68 4d 61 73 6b 36  guments.rshMask6
+	0x0020 34 78 33 32 45 78 74 00 00 00 00 00 00 00 00 00  4x32Ext.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 10  ................
+	0x0040 76 00 00 5a 00 00 00 00 00 00 00 00 10 73 00 00  v..Z.........s..
+	0x0050 5a 00 00 00 00 00 00 00 00 0f 7e 72 32 00 01 5a  Z.........~r2..Z
+	0x0060 00 00 00 00 00 00                                ......
+	rel 0+0 t=24 type.int32+0
+	rel 0+0 t=24 type.int64+0
+	rel 40+8 t=1 "".rshMask64x32Ext+0
+	rel 48+8 t=1 "".rshMask64x32Ext+18
+	rel 68+4 t=29 go.info.int64+0
+	rel 72+4 t=29 +0
+	rel 81+4 t=29 go.info.int32+0
+	rel 85+4 t=29 +51
+	rel 96+4 t=29 go.info.int64+0
+aux for "".lshSigned SDWARFLOC size=207
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 50 00 00 00 00 00 00 00  ........P.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 50 00 00 00 00  ...........P....
+	0x0050 00 00 00 02 00 91 02 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00 ff ff ff ff ff ff ff ff 00  ................
+	0x0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 50  ...............P
+	0x0080 00 00 00 00 00 00 00 02 00 91 04 00 00 00 00 00  ................
+	0x0090 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff ff  ................
+	0x00a0 ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x00b0 00 00 00 50 00 00 00 00 00 00 00 02 00 91 08 00  ...P............
+	0x00c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ...............
+	rel 8+8 t=1 "".lshSigned+0
+	rel 59+8 t=1 "".lshSigned+0
+	rel 111+8 t=1 "".lshSigned+0
+	rel 163+8 t=1 "".lshSigned+0
+aux for "".lshSigned SDWARFLINES size=36
+	0x0000 04 02 0a 03 e0 00 14 89 06 41 06 39 06 41 06 43  .........A.9.A.C
+	0x0010 06 37 06 39 06 41 06 42 06 68 49 3f 3f 06 41 02  .7.9.A.B.hI??.A.
+	0x0020 01 00 01 01                                      ....
+aux for "".lshSigned SDWARFINFO size=127
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6c 73 68 53 69 67 6e 65  guments.lshSigne
+	0x0020 64 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  d...............
+	0x0030 00 00 01 9c 02 00 00 00 01 10 76 38 00 00 66 00  ..........v8..f.
+	0x0040 00 00 00 00 00 00 00 10 76 31 36 00 00 66 00 00  ........v16..f..
+	0x0050 00 00 00 00 00 00 10 76 33 32 00 00 66 00 00 00  .......v32..f...
+	0x0060 00 00 00 00 00 10 76 36 34 00 00 66 00 00 00 00  ......v64..f....
+	0x0070 00 00 00 00 0f 78 00 00 66 00 00 00 00 00 00     .....x..f......
+	rel 0+0 t=24 type.int+0
+	rel 0+0 t=24 type.int16+0
+	rel 0+0 t=24 type.int32+0
+	rel 0+0 t=24 type.int64+0
+	rel 0+0 t=24 type.int8+0
+	rel 34+8 t=1 "".lshSigned+0
+	rel 42+8 t=1 "".lshSigned+80
+	rel 63+4 t=29 go.info.int8+0
+	rel 67+4 t=29 +0
+	rel 78+4 t=29 go.info.int16+0
+	rel 82+4 t=29 +51
+	rel 93+4 t=29 go.info.int32+0
+	rel 97+4 t=29 +103
+	rel 108+4 t=29 go.info.int64+0
+	rel 112+4 t=29 +155
+	rel 121+4 t=29 go.info.int+0
+aux for "".lshSignedMasked SDWARFLINES size=11
+	0x0000 04 02 03 f5 00 14 02 01 00 01 01                 ...........
+aux for "".lshSignedMasked SDWARFINFO size=121
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6c 73 68 53 69 67 6e 65  guments.lshSigne
+	0x0020 64 4d 61 73 6b 65 64 00 00 00 00 00 00 00 00 00  dMasked.........
+	0x0030 00 00 00 00 00 00 00 00 01 9c 02 00 00 00 01 0f  ................
+	0x0040 76 38 00 00 72 00 00 00 00 00 0f 76 31 36 00 00  v8..r......v16..
+	0x0050 72 00 00 00 00 00 0f 76 33 32 00 00 72 00 00 00  r......v32..r...
+	0x0060 00 00 0f 76 36 34 00 00 72 00 00 00 00 00 0f 78  ...v64..r......x
+	0x0070 00 00 72 00 00 00 00 00 00                       ..r......
+	rel 0+0 t=24 type.int+0
+	rel 0+0 t=24 type.int16+0
+	rel 0+0 t=24 type.int32+0
+	rel 0+0 t=24 type.int64+0
+	rel 0+0 t=24 type.int8+0
+	rel 40+8 t=1 "".lshSignedMasked+0
+	rel 48+8 t=1 "".lshSignedMasked+1
+	rel 69+4 t=29 go.info.int8+0
+	rel 81+4 t=29 go.info.int16+0
+	rel 93+4 t=29 go.info.int32+0
+	rel 105+4 t=29 go.info.int64+0
+	rel 115+4 t=29 go.info.int+0
+aux for "".rshGuarded64 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 67 00 00 00 00 00 00 00  ........g.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 67 00 00 00 00  ...........g....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".rshGuarded64+0
+	rel 59+8 t=1 "".rshGuarded64+0
+aux for "".rshGuarded64 SDWARFLINES size=32
+	0x0000 04 02 03 fb 00 14 0a a5 9c 06 41 06 4d 06 41 06  ..........A.M.A.
+	0x0010 c5 06 55 06 af 06 03 7f 47 06 37 02 07 00 01 01  ..U.....G.7.....
+aux for "".rshGuarded64 SDWARFINFO size=102
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 73 68 47 75 61 72 64  guments.rshGuard
+	0x0020 65 64 36 34 00 00 00 00 00 00 00 00 00 00 00 00  ed64............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00 00  .............v..
+	0x0040 81 01 00 00 00 00 00 00 00 00 10 73 00 00 81 01  ...........s....
+	0x0050 00 00 00 00 00 00 00 00 0f 7e 72 32 00 01 81 01  .........~r2....
+	0x0060 00 00 00 00 00 00                                ......
+	rel 0+0 t=24 type.int64+0
+	rel 0+0 t=24 type.uint+0
+	rel 37+8 t=1 "".rshGuarded64+0
+	rel 45+8 t=1 "".rshGuarded64+103
+	rel 66+4 t=29 go.info.int64+0
+	rel 70+4 t=29 +0
+	rel 80+4 t=29 go.info.uint+0
+	rel 84+4 t=29 +51
+	rel 96+4 t=29 go.info.int64+0
+aux for "".rshGuarded64U SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 67 00 00 00 00 00 00 00  ........g.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 67 00 00 00 00  ...........g....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".rshGuarded64U+0
+	rel 59+8 t=1 "".rshGuarded64U+0
+aux for "".rshGuarded64U SDWARFLINES size=32
+	0x0000 04 02 03 83 01 14 0a a5 9c 06 41 06 4d 06 41 06  ..........A.M.A.
+	0x0010 c5 06 55 06 af 06 03 7f 47 06 37 02 07 00 01 01  ..U.....G.7.....
+aux for "".rshGuarded64U SDWARFINFO size=103
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 72 73 68 47 75 61 72 64  guments.rshGuard
+	0x0020 65 64 36 34 55 00 00 00 00 00 00 00 00 00 00 00  ed64U...........
+	0x0030 00 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00  ..............v.
+	0x0040 00 89 01 00 00 00 00 00 00 00 00 10 73 00 00 89  ............s...
+	0x0050 01 00 00 00 00 00 00 00 00 0f 7e 72 32 00 01 89  ..........~r2...
+	0x0060 01 00 00 00 00 00 00                             .......
+	rel 0+0 t=24 type.uint+0
+	rel 0+0 t=24 type.uint64+0
+	rel 38+8 t=1 "".rshGuarded64U+0
+	rel 46+8 t=1 "".rshGuarded64U+103
+	rel 67+4 t=29 go.info.uint64+0
+	rel 71+4 t=29 +0
+	rel 81+4 t=29 go.info.uint+0
+	rel 85+4 t=29 +51
+	rel 97+4 t=29 go.info.uint64+0
+aux for "".lshGuarded64 SDWARFLOC size=103
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 00 00 00 00 00 00 00 00 67 00 00 00 00 00 00 00  ........g.......
+	0x0020 01 00 9c 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 67 00 00 00 00  ...........g....
+	0x0050 00 00 00 02 00 91 08 00 00 00 00 00 00 00 00 00  ................
+	0x0060 00 00 00 00 00 00 00                             .......
+	rel 8+8 t=1 "".lshGuarded64+0
+	rel 59+8 t=1 "".lshGuarded64+0
+aux for "".lshGuarded64 SDWARFLINES size=32
+	0x0000 04 02 03 8b 01 14 0a a5 9c 06 41 06 4d 06 41 06  ..........A.M.A.
+	0x0010 c5 06 55 06 af 06 03 7f 47 06 37 02 07 00 01 01  ..U.....G.7.....
+aux for "".lshGuarded64 SDWARFINFO size=102
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 6c 73 68 47 75 61 72 64  guments.lshGuard
+	0x0020 65 64 36 34 00 00 00 00 00 00 00 00 00 00 00 00  ed64............
+	0x0030 00 00 00 00 00 01 9c 02 00 00 00 01 10 76 00 00  .............v..
+	0x0040 91 01 00 00 00 00 00 00 00 00 10 73 00 00 91 01  ...........s....
+	0x0050 00 00 00 00 00 00 00 00 0f 7e 72 32 00 01 91 01  .........~r2....
+	0x0060 00 00 00 00 00 00                                ......
+	rel 0+0 t=24 type.int64+0
+	rel 0+0 t=24 type.uint+0
+	rel 37+8 t=1 "".lshGuarded64+0
+	rel 45+8 t=1 "".lshGuarded64+103
+	rel 66+4 t=29 go.info.int64+0
+	rel 70+4 t=29 +0
+	rel 80+4 t=29 go.info.uint+0
+	rel 84+4 t=29 +51
+	rel 96+4 t=29 go.info.int64+0
+aux for "".checkWidenAfterShift SDWARFLOC size=280
+	0x0000 ff ff ff ff ff ff ff ff 00 00 00 00 00 00 00 00  ................
+	0x0010 15 00 00 00 00 00 00 00 1a 00 00 00 00 00 00 00  ................
+	0x0020 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00  ..P.............
+	0x0030 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 00  ................
+	0x0040 00 00 00 47 00 00 00 00 00 00 00 49 00 00 00 00  ...G.......I....
+	0x0050 00 00 00 01 00 52 49 00 00 00 00 00 00 00 4d 00  .....RI.......M.
+	0x0060 00 00 00 00 00 00 01 00 50 4d 00 00 00 00 00 00  ........PM......
+	0x0070 00 53 00 00 00 00 00 00 00 01 00 52 00 00 00 00  .S.........R....
+	0x0080 00 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff  ................
+	0x0090 ff ff ff ff 00 00 00 00 00 00 00 00 2a 00 00 00  ............*...
+	0x00a0 00 00 00 00 2f 00 00 00 00 00 00 00 01 00 51 2f  ..../.........Q/
+	0x00b0 00 00 00 00 00 00 00 35 00 00 00 00 00 00 00 01  .......5........
+	0x00c0 00 52 35 00 00 00 00 00 00 00 53 00 00 00 00 00  .R5.......S.....
+	0x00d0 00 00 01 00 51 00 00 00 00 00 00 00 00 00 00 00  ....Q...........
+	0x00e0 00 00 00 00 00 ff ff ff ff ff ff ff ff 00 00 00  ................
+	0x00f0 00 00 00 00 00 00 00 00 00 00 00 00 00 53 00 00  .............S..
+	0x0100 00 00 00 00 00 01 00 9c 00 00 00 00 00 00 00 00  ................
+	0x0110 00 00 00 00 00 00 00 00                          ........
+	rel 8+8 t=1 "".checkWidenAfterShift+0
+	rel 59+8 t=1 "".checkWidenAfterShift+0
+	rel 148+8 t=1 "".checkWidenAfterShift+0
+	rel 237+8 t=1 "".checkWidenAfterShift+0
+aux for "".checkWidenAfterShift SDWARFLINES size=57
+	0x0000 04 02 03 96 01 14 06 41 06 57 06 2d 06 03 01 50  .......A.W.-...P
+	0x0010 06 23 06 2f 06 2d 06 39 06 2d 06 4d 06 2d 06 25  .#./.-.9.-.M.-.%
+	0x0020 24 06 37 06 03 77 3d 06 2d 06 39 06 37 06 25 03  $.7..w=.-.9.7.%.
+	0x0030 04 28 06 37 02 06 00 01 01                       .(.7.....
+aux for "".checkWidenAfterShift SDWARFINFO size=159
+	0x0000 03 63 6f 6d 6d 61 6e 64 2d 6c 69 6e 65 2d 61 72  .command-line-ar
+	0x0010 67 75 6d 65 6e 74 73 2e 63 68 65 63 6b 57 69 64  guments.checkWid
+	0x0020 65 6e 41 66 74 65 72 53 68 69 66 74 00 00 00 00  enAfterShift....
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9c 02  ................
+	0x0040 00 00 00 01 0b 66 00 9c 01 00 00 00 00 00 00 00  .....f..........
+	0x0050 00 0b 67 00 a0 01 00 00 00 00 00 00 00 00 0b 68  ..g............h
+	0x0060 00 a6 01 00 00 00 00 00 00 00 00 10 76 00 00 99  ............v...
+	0x0070 01 00 00 00 00 00 00 00 00 0f 75 00 00 99 01 00  ..........u.....
+	0x0080 00 00 00 00 0f 7e 72 32 00 01 99 01 00 00 00 00  .....~r2........
+	0x0090 00 0f 7e 72 33 00 01 99 01 00 00 00 00 00 00     ..~r3..........
+	rel 0+0 t=24 type.int64+0
+	rel 0+0 t=24 type.uint64+0
+	rel 45+8 t=1 "".checkWidenAfterShift+0
+	rel 53+8 t=1 "".checkWidenAfterShift+83
+	rel 73+4 t=29 go.info.int32+0
+	rel 77+4 t=29 +0
+	rel 86+4 t=29 go.info.int16+0
+	rel 90+4 t=29 +51
+	rel 99+4 t=29 go.info.int8+0
+	rel 103+4 t=29 +140
+	rel 113+4 t=29 go.info.int64+0
+	rel 117+4 t=29 +229
+	rel 127+4 t=29 go.info.uint64+0
+	rel 140+4 t=29 go.info.int64+0
+	rel 153+4 t=29 go.info.uint64+0
