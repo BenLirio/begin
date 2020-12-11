@@ -2,20 +2,13 @@ package input
 
 import (
 	"fmt"
-	"os"
-	"bufio"
-	"strings"
+	"log"
+	"net/http"
 )
 
 func Listen() {
-	reader := bufio.NewReader(os.Stdin)
-	fmt.Println("Input listening")
-	for {
-		fmt.Print("-")
-		text, _ := reader.ReadString('\n')
-		text = strings.Replace(text, "\n", "", -1)
-		if strings.Compare(text, "exit") == 0 {
-			os.Exit(0)
-		}
+	fmt.Printf("Starting server at port 8080\n")
+	if err := http.ListenAndServe(":8080", nil); err != nil {
+		log.Fatal(err)
 	}
 }
